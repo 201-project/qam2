@@ -1,11 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <link rel="stylesheet" href="css/gitstart.css">
-    <title>Tourism Travel</title>
+<title>Tourism Travel</title>
 </head>
+
 <body>
-    <header></header>
-<main></main>
-<footer></footer>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="home.html">Home</a>
+                </li>
+                <li >
+                    <a href="about-us.html">About Us</a>
+                </li>
+                <li class="contact-us">
+                    Contact Us</li>
+                <li>
+                    <a href="chart.html">Travel Data</a>
+                    </li>
+            </ul>
+            <img src="img/logo.jpg" alt="logo">
+        </nav>
+    </header>
+    <main>
+        <form id="travelForm">
+            <fieldset>
+                <label for="name">User Name</label>
+                <input type="text" id="name" required />
+                <br />
+                <label for="travelPurpose">Travel Purpose</label>
+                <input type="text" id="travelPurpose" placeholder="add the sort of Tourism" required />
+                <br />
+                <label for="partner">Do You Have Any Patner ??</label>
+                <input type="text" id="partner" placeholder="type a lone or group" required />
+                <br />
+                <label for="budget">How Many Your Budget ?</label>
+                <input type="number" id="budget" placeholder="type a money that you have" required />
+                <br />
+                <input type="submit" id="submit" />
+            </fieldset>
+        </form>
+    </main>
+    <footer></footer>
 </body>
+<img src=""  alt="">
 </html>
