@@ -46,12 +46,13 @@ header nav ul li a:hover{
     color: teal;
 }
 .sidenav {
+    float: right;
     margin-top:100px ;
     width: 70px;
     position: fixed;
     z-index: 1;
     top: 10px;
-    left: 5px;
+    right:5px;
     /* background: rgba(238, 238, 238, 0.349); */
     overflow-x: hidden;
     /* padding: 8px 0; */
