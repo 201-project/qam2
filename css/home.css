@@ -62,7 +62,7 @@ main section div {
     text-align: center;
     width: 50pc;
     height: 25pc;
-    color: rgba(255, 255, 255, 0.938);
+    color: rgba(255, 255, 255, 0.849);
 } 
 main section div h1{
     text-align: center;
@@ -73,8 +73,11 @@ main section div h1{
 
 }  
 main section div h3{
-    margin: 20px;
-    padding: 20px;    
+    margin: 10px 0px 0px 10px;
+    padding: 10px;   
+    font-size: 20px; 
+    font-family: 'Solway', serif;
+    line-height: 40px;
 }  
 main section div button a{
     text-decoration: none;
@@ -113,7 +116,7 @@ footer {
     position: fixed;
     z-index: 1;
     top: 10px;
-    left: 5px;
+    right:5px;
     /* background: rgba(238, 238, 238, 0.349); */
     overflow-x: hidden;
     /* padding: 8px 0; */

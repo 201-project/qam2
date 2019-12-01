@@ -26,17 +26,34 @@
     <main>
         <form id="travelForm">
             <fieldset>
-                <label for="name">User Name</label>
-                <input type="text" id="name" required />
+                <label for="name">What's your name?</label>
+                <input type="text" id="name" placeholder="type a money that you have" required />
                 <br />
-                <label for="travelPurpose">Travel Purpose</label>
-                <input type="text" id="travelPurpose" placeholder="add the sort of Tourism" required />
+                <label for="travelPurpose">please pick the reason you want to travel for</label>
                 <br />
-                <label for="partner">Do You Have Any Patner ??</label>
-                <input type="text" id="partner" placeholder="type a lone or group" required />
+                <input type="radio" name="choice" value="Tourism">Tourism
                 <br />
-                <label for="budget">How Many Your Budget ?</label>
-                <input type="number" id="budget" placeholder="type a money that you have" required />
+                <input type="radio" name="choice" value="Historical tourism" >Historical tourism
+                <br />
+                <input type="radio" name="choice" value="religious tourism">religious tourism
+                <br />
+                <input type="radio" name="choice" value="adventurous tourism">adventurous tourism
+                <br />
+                <label for="partner">Would you like travelling with a company or on your own?</label>
+                <br />
+                <input type="radio" name="choice1">Alone
+                <br />
+                <input type="radio" name="choice1">tourism company
+                <br />
+                <label for="budget">please pick the budget that suits you the most</label>
+                <br />
+                <input type="radio" name="budget">0 - 500 $
+                <br />
+                <input type="radio" name="budget">500$ - 3000 $
+                <br />
+                <input type="radio" name="budget">3000 $- 5000 $
+                <br />
+                <input type="radio" name="budget">5000 $ and more
                 <br />
                 <input type="submit" id="submit" />
             </fieldset>
