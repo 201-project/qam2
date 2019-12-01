@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Calistoga&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
 html{
     background: rgba(0, 0, 0, 0.137);
 }
@@ -17,7 +19,7 @@ header nav{
     /* position: fixed; */
     background: rgba(0, 0, 0, 0.76);
     color: white;
-    height: 60px;
+    height: 80px;
     padding: 10px;
    
 }
@@ -49,8 +51,7 @@ header nav{
 }
 #contactus{
     float: right;
-    
-    margin: -30px 35px 0px 0px;
+    margin: -45px 35px 0px 0px;
     padding: -20px;
     
 }
@@ -111,6 +112,7 @@ footer {
 /* Slideshow container */
 .slideshow-container,.slideshow1-container,.slideshow2-container,.slideshow3-container,.slideshow4-container,.slideshow5-container,.slideshow6-container,.slideshow7-container,.slideshow8-container,.slideshow9-container,.slideshow10-container,.slideshow11-container,.slideshow12-container,.slideshow13-container,.slideshow14-container,.slideshow15-container{
   max-width: 1000px;
+  max-height: 600px;
   position: relative;
   margin: auto;
 }
@@ -202,4 +204,87 @@ footer {
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
-}                       
+}
+h1{
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+}    
+
+#ayaP{
+    width: 500px;
+    font-family: 'Calistoga', cursive;
+}
+#tajP{
+    width: 500px;
+    font-family: 'Calistoga', cursive;    
+    
+    
+}                   
+#qudsP{
+    width: 500px;
+    font-family: 'Calistoga', cursive;
+}
+#MakkahP{
+    width: 500px;
+    font-family: 'Calistoga', cursive;
+}
+#WadiRumP{
+    width: 500px;
+    font-family: 'Calistoga', cursive;
+}
+#MountEverestP{
+    width: 500px;
+    font-family: 'Calistoga', cursive;
+}
+#CapeTownP{
+    width: 500px;
+    font-family: 'Calistoga', cursive;
+}
+#AquaClubP{
+    width: 500px;
+    font-family: 'Calistoga', cursive;
+}
+#petraP{
+    width: 500px;
+    font-family: 'Calistoga', cursive;
+}
+#ChinaP{
+    width: 500px;
+    font-family: 'Calistoga', cursive;
+}
+#pyramidsP{
+    width: 500px;
+    font-family: 'Calistoga', cursive;
+}
+#romeP{
+    width: 500px;
+    font-family: 'Calistoga', cursive;
+
+}
+#dubaiP{
+    width: 500px;
+    font-family: 'Calistoga', cursive;
+    
+}
+#malaysiaP{
+    width: 500px;
+    font-family: 'Calistoga', cursive;
+    
+}
+#Norway{
+    width: 500px;
+    font-family: 'Calistoga', cursive;
+    
+}
+#turkeyP{
+    width: 500px;
+    font-family: 'Calistoga', cursive;   
+}
+ main a img{
+     float: right;
+     margin-top: -300px;
+     margin-right: 500px;
+     width: 150px;
+     height: 150px;
+    
+} 
