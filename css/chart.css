@@ -22,7 +22,7 @@ header nav{
    
 }
 #navv li:hover{
-    color: teal;
+    color: rgb(14, 92, 92);
     background: rgba(253, 252, 253, 0.726);
     height: 30px;
     width: 30px;
