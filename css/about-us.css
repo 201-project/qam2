@@ -1,14 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Marck+Script&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap');
+
 html{
     background: rgba(0, 0, 0, 0.137);
 }
-header nav img {
+#logo {
     float: left;
     height: 60px;
     width: 80px;
     margin: -55px 30px 0px 30px;
     border-radius: 30%;
 }
-header nav  img:hover{
+#logo:hover{
     width: 90px;
     height: 70px;
     transition: 900ms;
@@ -21,31 +24,55 @@ header nav{
     padding: 10px;
    
 }
-header nav ul li:hover{
+#navv li:hover{
     color: teal;
     background: rgba(253, 252, 253, 0.726);
     height: 30px;
     width: 30px;
     transition: 850ms;
 }
-header nav ul {
+#navv {
     
-    margin-left: 100px;
+    margin-left: 80px;
 }
-header nav ul li a{
+#navv li a{
     
     text-decoration: none;
     color: rgb(247, 243, 247);
 }
-header nav ul li a:hover{
+#navv li a:hover{
     color: teal;
 }
-header nav ul li {
+#navv li {
     display: inline;
     padding: 20px;
     text-align: center;
     font:bolder;
     font-size: 20px;
+}
+#contactus{
+    float: right;
+    
+    margin: -30px 35px 0px 0px;
+    padding: -20px;
+    
+}
+#contactus li{
+    display: inline;
+    padding: 5px;
+    text-align: center;
+    font:bolder;
+    font-size: 20px;
+}
+.imgs:hover{
+    background: none;
+    transform: scale(0.9);
+
+}
+.imgs{
+    padding: -35px;
+    width: 30px;
+    height: 30px;
 }
 footer {
     clear: both;
@@ -55,30 +82,216 @@ footer {
     border: white;
     color: white;
     text-align: center;
-} 
-.sidenav {
-    margin-top:100px ;
-    width: 70px;
-    position: fixed;
-    z-index: 1;
-    top: 10px;
-    left: 5px;
-    /* background: rgba(238, 238, 238, 0.349); */
-    overflow-x: hidden;
-    /* padding: 8px 0; */
-  }
-  .sidenav a {
-      padding: 6px 8px 6px 16px;
-      text-decoration: none;
-      font-size: 25px;
-      color: #2196F3;
-      display: block;
+}                          
+
+     h1  {
+        font-family: 'Marck Script', cursive;
     }
-    .sidenav a:hover {
-        color: #064579;
+    #img-circleq{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        float: right;
+        margin-top: -30px
+    }
+    #img-circlea{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        float: left;
+        margin-top: -40px
+    }
+    #img-circleh{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        float: right;
+        margin-top: -40px
+    }
+    #img-circles{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        float: left;
+        margin-top: -30px;
+        
+    }
+   
+    #qusia{
+        border:solid;
+        width: 50pc;
+        height: 20pc;
+        font-size: 20px;
+        border-radius: 30%;
+        margin: 50px 0px 30px 60px;
+        float: right;
+        margin-right:100px;
+        background: rgba(0, 0, 0, 0.836);
+        color: rgba(248, 247, 246, 0.918);
+        
     }
     
-    .sidenav a img{
-        width: 50px;
-        height: 50px;
-    }                           
+    #ashar{
+        border:solid;
+        width: 55pc;
+        height: 20pc;
+        font-size: 20px;
+        border-radius: 30%;
+        margin: 30px 0px 30px 60px;
+        float: left;
+        margin-left:100px;
+        background: rgba(5, 82, 82, 0.938);
+        color: rgba(248, 247, 246, 0.918);
+    }
+    #hawamdeh{
+        border:solid;
+        width: 55pc;
+        height: 20pc;
+        font-size: 20px;
+        border-radius: 30%;
+        margin: 30px 0px 30px 60px;
+        float: right;
+        margin-right:100px;
+        background: rgba(0, 0, 0, 0.836);
+        color: rgba(248, 247, 246, 0.918);
+    }
+    #sboul{
+        border:solid;
+        width: 55pc;
+        height: 20pc;
+        font-size: 20px;
+        border-radius: 30%;
+        margin: 30px 0px 30px 60px;
+        float: left;
+        margin-left:100px;
+        background:rgba(5, 82, 82, 0.938);
+        color: rgba(248, 247, 246, 0.918);
+    }
+
+    #qusia p{
+        width: 35pc;
+        font-size: 28px;
+        padding: 20px;
+        margin: 60px;
+        font-family: 'Patrick Hand', cursive;
+       }
+    #ashar p{
+    
+       width: 45pc;
+       font-size: 23px;
+       padding: 20px;
+       margin: 70px;
+       font-family: 'Patrick Hand', cursive;
+}
+    #sboul p{
+       width: 45pc;
+       font-size: 23px;
+       padding: 20px;
+       margin: 70px;
+       font-family: 'Patrick Hand', cursive;
+   }
+
+   #hawamdeh p{
+       width: 45pc;
+       font-size: 23px;
+       padding: 20px;
+       margin: 70px;
+       font-family: 'Patrick Hand', cursive;
+   }
+  #qusia a{
+       text-decoration: none;
+       color: rgba(248, 248, 248, 0.938);
+       background: rgba(10, 78, 78, 0.856);
+       border-radius: 20%;
+       padding: 8px;
+       float: right;
+       margin-top: 15px;
+   }
+   #qusia a:hover{
+       transform: scale(1.1);
+       transition: 860ms;
+   }
+   #ashar a{
+    text-decoration: none;
+    color: rgba(248, 248, 248, 0.938);
+    background: rgba(6, 12, 12, 0.856);
+    border-radius: 20%;
+    padding: 10px;
+    float: left;
+    margin-top: 15px;
+}
+#ashar a:hover{
+    transform: scale(1.1);
+    transition: 860ms;
+}
+#hawamdeh a{
+    text-decoration: none;
+    color: rgba(248, 248, 248, 0.938);
+    background: rgba(10, 78, 78, 0.856);
+    border-radius: 20%;
+    padding: 11px;
+    float: right;
+    margin-top: 15px;
+}
+#hawamdeh a:hover{
+    transform: scale(1.1);
+    transition: 860ms;
+}
+#sboul a{
+    text-decoration: none;
+    color: rgba(248, 248, 248, 0.938);
+    background: rgba(6, 12, 12, 0.856);
+    border-radius: 20%;
+    padding: 9px;
+    float: left;
+    margin-top: 15px;
+}
+#sboul a:hover{
+    transform: scale(1.1);
+    transition: 860ms;
+}
+
+#forh1{
+    position: absolute;
+top:25%;
+left:38%;
+font-size: 30px;
+}
+#forh1:hover{
+    color: rgb(9, 80, 80);
+    transform: scale(1.2);
+    transition: 850ms;
+}
+#forh2{
+    position: absolute;
+top:84%;
+left:18%;
+font-size: 30px;
+}
+#forh2:hover{
+    color: rgb(8, 1, 6);
+    transform: scale(1.2);
+    transition: 850ms;
+}
+#forh3{
+    position: absolute;
+top:142%;
+left:31%;
+font-size: 30px;
+}
+#forh3:hover{
+    color: rgb(9, 80, 80);
+    transform: scale(1.2);
+    transition: 850ms;
+}
+#forh4{
+    position: absolute;
+top:200%;
+left:18%;
+font-size: 30px;
+}
+#forh4:hover{
+    color: rgb(8, 1, 6);
+    transform: scale(1.2);
+    transition: 850ms;
+}
