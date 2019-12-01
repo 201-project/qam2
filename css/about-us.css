@@ -82,7 +82,7 @@ footer {
     border: white;
     color: white;
     text-align: center;
-}
+}                          
 
      h1  {
         font-family: 'Marck Script', cursive;
@@ -253,7 +253,7 @@ footer {
 
 #forh1{
     position: absolute;
-top:31%;
+top:25%;
 left:38%;
 font-size: 30px;
 }
@@ -264,7 +264,7 @@ font-size: 30px;
 }
 #forh2{
     position: absolute;
-top:90%;
+top:84%;
 left:18%;
 font-size: 30px;
 }
@@ -275,7 +275,7 @@ font-size: 30px;
 }
 #forh3{
     position: absolute;
-top:149%;
+top:142%;
 left:31%;
 font-size: 30px;
 }
@@ -286,7 +286,7 @@ font-size: 30px;
 }
 #forh4{
     position: absolute;
-top:209%;
+top:200%;
 left:18%;
 font-size: 30px;
 }
