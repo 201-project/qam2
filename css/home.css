@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Prompt&display=swap');
 html{
-    background: rgba(0, 0, 0, 0.219);
+    background: rgba(0, 0, 0, 0.664);
 }
 #logo {
     float: left;
@@ -131,9 +132,44 @@ header nav{
 footer {
     clear: both;
     background: rgba(0, 0, 0, 0.829);
-    margin-top:20pc;
+    margin-top: 50px;
     padding: 30px;
     border: white;
     color: white;
     text-align: center;
+}
+/* .mySlides{
+  display: block;
+  margin-left: 40%;
+  margin-right: 40%;
+  margin-top: 20px;
+  width: 190%;
+  height: 190%;
+} */
+div p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+#slideshow{
+    display: block;
+    clear: both;
+    float: left;  
+    margin-top: 30px; 
+    margin-left: 6pc;
+    margin-bottom: 40px;
+}
+.mySlides p{
+ padding: 30px;
+ font-size: 19px;
+ border: solid;
+ color: rgba(255, 255, 255, 0.925);
+ font-family: 'Prompt', sans-serif;
+}
+.mySlides p:hover{
+    transform: scale(1.1);
+    transition: 950ms;
+    color: rgb(2, 17, 17);
+}
+.mySlides img{
+    border-radius: 10%;
 }
