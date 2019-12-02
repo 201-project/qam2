@@ -43,36 +43,53 @@
     <main>
         <form id="travelForm">
             <fieldset>
-                <label for="name">What's your name?</label>
+                <label for="name" class="name">What's your name?</label>
+                <br/>
+                <input type="text" id="name" placeholder="type you name please" required />
                 <br />
-                <input type="text" class="name" placeholder="type you name please" required />
+                <label for="travelPurpose" id="q2">please pick the reason you want to travel for</label>
                 <br />
-                <label for="travelPurpose">please pick the reason you want to travel for</label>
+                <input type="radio" id="travelPurpose" name="choice" value="Recreational tourism" ><span>Recreational tourism</span> 
                 <br />
-                <input type="radio" id="travelPurpose" name="choice" value="Recreational tourism" > Recreational tourism
+                <input type="radio"id="travelPurpose" name="choice" value="Historical tourism" ><span> Historical tourism</span>
                 <br />
-                <input type="radio"id="travelPurpose" name="choice" value="Historical tourism" >Historical tourism
+                <input type="radio"id="travelPurpose" name="choice" value="religious tourism"><span>tourism</span> 
                 <br />
-                <input type="radio"id="travelPurpose" name="choice" value="religious tourism">religious tourism
+                <input type="radio"id="travelPurpose" name="choice" value="adventurous tourism"><span>adventurous tourism</span>
                 <br />
-                <input type="radio"id="travelPurpose" name="choice" value="adventurous tourism">adventurous tourism
+                <label for="travelq" id="q3">who are you going to travel with?</label>
+                <br/>
+                <input type="radio"id="travelq" name="travelq"><span>Alone</span>
+                <br/>
+                <input type="radio"id="travelq" name="travelq"><span>Group</span>
+                <br/>
+                <label for="partner"class="q ">Would you like travelling with a company or on your own?</label>
                 <br />
-                <label for="partner">Would you like travelling with a company or on your own?</label>
+                <input type="radio"id="partner" name="choice2"><span>Alone</span>
                 <br />
-                <input type="radio"id="partner" name="choice1">Alone
+                <input type="radio" id="partner"name="choice2"><span>tourism company</span>
                 <br />
-                <input type="radio" id="partner"name="choice1">tourism company
+                
+                <label for="budget" class="q">please pick the budget that suits you the most</label>
                 <br />
-                <label for="budget">please pick the budget that suits you the most</label>
+                <input type="radio"id="budget" name="budget"><span>0 - 500 $ </span>   
                 <br />
-                <input type="radio"id="partner" name="budget">0 - 500 $
+                <input type="radio" id="budget"name="budget"><span>500$ - 3000 $</span>
                 <br />
-                <input type="radio" id="partner"name="budget">500$ - 3000 $
+                <input type="radio" id="budget"name="budget"><span>3000 $- 5000 $</span>
                 <br />
-                <input type="radio" id="partner"name="budget">3000 $- 5000 $
+                <input type="radio" id="budget"name="budget"><span>5000 $ and more</span>
                 <br />
-                <input type="radio" id="partner"name="budget">5000 $ and more
-                <br />
+                <label for="days" id="q6">How long is your journey will be?</label>
+                <br/>
+                <input type="radio" id="days"name="days"><span>(1-5)</span>
+                <br/>
+                <input type="radio" id="days"name="days"><span>(5-15)</span>
+                <br/>
+                <input type="radio" id="days"name="days"><span>(15-30)</span>
+                <br/>
+                <input type="radio" id="days"name="days"><span>(30 and more)</span>
+                <br/>
                 <input type="submit" id="submit" />
             </fieldset>
         </form>
