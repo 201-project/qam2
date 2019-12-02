@@ -1,14 +1,14 @@
 html{
-    background: rgba(0, 0, 0, 0.137);
+    background: rgba(0, 0, 0, 0.219);
 }
-header nav img {
+#logo {
     float: left;
     height: 60px;
     width: 80px;
     margin: -55px 30px 0px 30px;
     border-radius: 30%;
 }
-header nav  img:hover{
+#logo:hover{
     width: 90px;
     height: 70px;
     transition: 900ms;
@@ -21,84 +21,111 @@ header nav{
     padding: 10px;
    
 }
-header nav ul li:hover{
-    color: teal;
+#navv li:hover{
+    color: rgb(12, 75, 75);
     background: rgba(253, 252, 253, 0.726);
     height: 30px;
     width: 30px;
     transition: 850ms;
 }
-header nav ul {
+#navv {
     
-    margin-left: 100px;
+    margin-left: 80px;
 }
-header nav ul li a{
+#navv li a{
     
     text-decoration: none;
     color: rgb(247, 243, 247);
 }
-header nav ul li a:hover{
+#navv li a:hover{
     color: teal;
 }
-header nav ul li {
+#navv li {
     display: inline;
     padding: 20px;
     text-align: center;
     font:bolder;
     font-size: 20px;
 }
-main section {
+#contactus{
+    float: right;
+    
+    margin: -30px 35px 0px 0px;
+    padding: -20px;
+    
+}
+#contactus li{
+    display: inline;
+    padding: 5px;
+    text-align: center;
+    font:bolder;
+    font-size: 20px;
+}
+.imgs:hover{
+    background: none;
+    transform: scale(0.9);
+
+}
+.imgs{
+    padding: -35px;
+    width: 30px;
+    height: 30px;
+}
+#gitstart {
     margin-top: 20px;
     background-image: url(../img/background.jpg);
      background-position: center;
    background-repeat: no-repeat;
-   height: 28pc;
+   height: 34pc;
    background-size: cover;
 }    
-main section div {
+#gitstart div {
     float: left;
-    margin: 30px 0px 0px 300px;
-    background: rgba(0, 0, 0, 0.466);
+    margin: 30px 0px 0px 110px;
+    background: rgba(0, 0, 0, 0.562);
+    border-radius: 10%;
     text-align: center;
-    width: 50pc;
-    height: 25pc;
+    width: 70pc;
+    height: 30pc;
     color: rgba(255, 255, 255, 0.849);
 } 
-main section div h1{
+#gitstart div h1{
     text-align: center;
-    font-size: 60px;
+    font-size: 70px;
     margin: 20px;
     padding: 20px;
     font-family: 'Lobster', cursive;
 
 }  
-main section div h3{
-    margin: 10px 0px 0px 10px;
+#gitstart div h3{
+    width: 70%;
+    margin: 10px 0px 0px 100px;
     padding: 10px;   
-    font-size: 20px; 
+    font-size: 30px; 
     font-family: 'Solway', serif;
     line-height: 40px;
 }  
-main section div button a{
+#gitstart div button a{
     text-decoration: none;
     color: rgb(7, 7, 7);
     font-family: 'Crete Round', serif;
 }
-main section div button a:hover{
-    color: rgba(0, 128, 128, 0.856);
+#gitstart div button a:hover{
+    color: rgba(243, 245, 245, 0.856);
     font: bolder;
 }
-main section div button{
-    margin: 20px;
+#gitstart div button{
+    background: rgba(21, 87, 87, 0.856);
+    margin: 30px;
     padding: 20px; 
     border-radius: 20%;
     font-size: 20px;
     font-style: italic;
     font: bolder;
 } 
-main section div button:hover{
+#gitstart div button:hover{
     transform: scale(1.1);
-    color: rgba(0, 128, 128, 0.856);
+    color: rgba(247, 248, 248, 0.856);
     transition: 850ms;
 } 
 footer {
@@ -109,33 +136,4 @@ footer {
     border: white;
     color: white;
     text-align: center;
-}
-.sidenav {
-    margin-top:100px ;
-    width: 70px;
-    position: fixed;
-    z-index: 1;
-    top: 10px;
-    right:5px;
-    /* background: rgba(238, 238, 238, 0.349); */
-    overflow-x: hidden;
-    /* padding: 8px 0; */
-  }
-  .sidenav a {
-      padding: 6px 8px 6px 16px;
-      text-decoration: none;
-      font-size: 25px;
-      color: #2196F3;
-      display: block;
-    }
-    .sidenav a:hover {
-        color: #064579;
-    }
-    
-    .sidenav a img{
-        width: 50px;
-        height: 50px;
-    }
-#facebook{
-    background-image: url(../img/facebook\ \(1\.png);
 }
