@@ -71,60 +71,59 @@ header nav{
     width: 30px;
     height: 30px;
 }
-
-main section {
+#gitstart {
     margin-top: 20px;
     background-image: url(../img/background.jpg);
      background-position: center;
    background-repeat: no-repeat;
-   height: 28pc;
+   height: 34pc;
    background-size: cover;
 }    
-main section div {
+#gitstart div {
     float: left;
-    margin: 30px 0px 0px 150px;
-    background: rgba(0, 0, 0, 0.507);
+    margin: 30px 0px 0px 110px;
+    background: rgba(0, 0, 0, 0.562);
     border-radius: 10%;
     text-align: center;
     width: 70pc;
-    height: 25pc;
+    height: 30pc;
     color: rgba(255, 255, 255, 0.849);
 } 
-main section div h1{
+#gitstart div h1{
     text-align: center;
-    font-size: 60px;
+    font-size: 70px;
     margin: 20px;
     padding: 20px;
     font-family: 'Lobster', cursive;
 
 }  
-main section div h3{
+#gitstart div h3{
     width: 70%;
     margin: 10px 0px 0px 100px;
     padding: 10px;   
-    font-size: 27px; 
+    font-size: 30px; 
     font-family: 'Solway', serif;
     line-height: 40px;
 }  
-main section div button a{
+#gitstart div button a{
     text-decoration: none;
     color: rgb(7, 7, 7);
     font-family: 'Crete Round', serif;
 }
-main section div button a:hover{
+#gitstart div button a:hover{
     color: rgba(243, 245, 245, 0.856);
     font: bolder;
 }
-main section div button{
+#gitstart div button{
     background: rgba(21, 87, 87, 0.856);
-    margin: 20px;
+    margin: 30px;
     padding: 20px; 
     border-radius: 20%;
     font-size: 20px;
     font-style: italic;
     font: bolder;
 } 
-main section div button:hover{
+#gitstart div button:hover{
     transform: scale(1.1);
     color: rgba(247, 248, 248, 0.856);
     transition: 850ms;
