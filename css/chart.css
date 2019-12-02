@@ -81,33 +81,93 @@ footer {
     color: white;
     text-align: center;
 } 
-.sidenav {
-    margin-top:100px ;
-    width: 70px;
-    position: fixed;
-    z-index: 1;
-    top: 10px;
-    left: 5px;
-    /* background: rgba(238, 238, 238, 0.349); */
-    overflow-x: hidden;
-    /* padding: 8px 0; */
-  }
-  .sidenav a {
-      padding: 6px 8px 6px 16px;
-      text-decoration: none;
-      font-size: 25px;
-      color: #2196F3;
-      display: block;
+    * {box-sizing:border-box}
+    main{
+        margin-top: 20px;
+      background-image: url(../img/background.jpg);
+       background-position: center;
+     background-repeat: no-repeat;
+     height: 64pc;
+     background-size: cover;
+  } 
+    
+    /* form styles */
+    form{
+        float: left;
+        margin: 30px 0px 0px 40px;
+        background: rgba(0, 0, 0, 0.637);
+        text-align: center;
+        width: 80pc;
+        height: 59pc;
+        border-radius: 10%;
+        color: rgba(255, 255, 255, 0.849);
+    } 
+    fieldset{
+       
+        margin: 30px 0px 10px 170px;
+        width: 55pc;
+        height: 53pc;
+        border-radius: 20%;
+        font-size: 24px;
+        font-family: 'Varela Round', sans-serif;
+    } 
+    label{
+        clear: both;
+        float: left;
+        width: 80%;
+        margin: 20px 290px 20px 26px;
+        font-size: 26px;
+        font-family: 'Varela Round', sans-serif;
+        
     }
-    .sidenav a:hover {
-        color: #064579;
+    label:hover{
+        transform: scale(1.1);
+        color: rgba(8, 141, 141, 0.938);
+        background-size: 20pc;
+    }
+    #name,#place {
+        padding: 15px;
+        border: 30%;
+    
+    } 
+    #travelPurpose{
+        float: left;
+        width: 200px; 
+        clear: both;
+        border: solid;
+        list-style-type: none;
+        border: solid;
+        text-align: left;
+        padding: 5px;
+        margin: 5px; 
     }
     
-    .sidenav a img{
-        width: 50px;
-        height: 50px;
-    }    
-    * {box-sizing:border-box}
+    #partner{
+        float: left;
+        width: 200px; 
+        clear: both;
+        padding: 20px;
+        margin: 10px;
+    }
+    
+    #submit{
+        float: left;
+        width: 20pc;
+        padding: 15px;
+            background: rgba(22, 114, 114, 0.712);
+            margin: 10px 0px 15px 270px;
+            padding: 20px; 
+            border-radius: 20%;
+            font-size: 25px;
+            font-style: italic;
+            font: bolder;
+    }
+    #submit:hover{
+        transform: scale(1.1);
+        color: rgba(247, 248, 248, 0.856);
+        transition: 850ms;
+    }                                         
+    
 
 /* Slideshow container */
 .slideshow-container,.slideshow1-container,.slideshow2-container,.slideshow3-container,.slideshow4-container,.slideshow5-container,.slideshow6-container,.slideshow7-container,.slideshow8-container,.slideshow9-container,.slideshow10-container,.slideshow11-container,.slideshow12-container,.slideshow13-container,.slideshow14-container,.slideshow15-container{
