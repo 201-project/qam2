@@ -2,7 +2,9 @@
 @import url('https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap');
 
 html{
-    background: rgba(0, 0, 0, 0.137);
+    background: rgba(0, 0, 0, 0.664);
+    /* background-image: url(../img/background2.gif);
+    background-repeat: repeat; */
 }
 #logo {
     float: left;
@@ -128,7 +130,6 @@ footer {
         margin-right:100px;
         background: rgba(0, 0, 0, 0.836);
         color: rgba(248, 247, 246, 0.918);
-        
     }
     
     #ashar{
