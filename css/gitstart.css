@@ -85,7 +85,7 @@ main{
     background-image: url(../img/background.jpg);
      background-position: center;
    background-repeat: no-repeat;
-   height: 52pc;
+   height: 64pc;
    background-size: cover;
 }  
 form{
@@ -94,7 +94,7 @@ form{
     background: rgba(0, 0, 0, 0.637);
     text-align: center;
     width: 80pc;
-    height: 47pc;
+    height: 59pc;
     border-radius: 10%;
     color: rgba(255, 255, 255, 0.849);
 } 
@@ -103,48 +103,53 @@ fieldset{
     /* float: left; */
     margin: 10px 0px 10px 170px;
     width: 55pc;
-    height: 43pc;
+    height: 53pc;
     border-radius: 20%;
     font-size: 24px;
     font-family: 'Varela Round', sans-serif;
 } 
 label{
-    width: 80%;
-    margin-top: 20px;
-    list-style-type: square;
+    clear: both;
     float: left;
-    margin-right: 290px;
-    margin-left: 25px;
+    width: 80%;
+    margin: 20px 290px 20px 26px;
     font-size: 26px;
     font-family: 'Varela Round', sans-serif;
     
 }
-input {
+.name {
+    padding: 15px;
+    border: 30%;
 
-    padding: 55px;
 } 
-#name{
-        width: 10pc;
-        padding: 15px;
-} 
+.name:hover{
+    color: rgb(27, 78, 54)
+}
 #travelPurpose{
+    float: left;
+    width: 200px; 
+    clear: both;
+    border: solid;
     list-style-type: none;
     border: solid;
     text-align: left;
-    padding: 5px;
-    margin: 5px;
+     padding: 5px;
+    margin: 5px; 
 }
 
 #partner{
+    float: left;
+    width: 200px; 
+    clear: both;
     padding: 20px;
     margin: 10px;
 }
+
 #submit{
     width: 20pc;
-    padding: 20px;
-    margin-top: 20px;
+    padding: 15px;
         background: rgba(22, 114, 114, 0.856);
-        margin: 20px;
+        margin: 30px 150px 20px 90px;
         padding: 20px; 
         border-radius: 20%;
         font-size: 20px;
