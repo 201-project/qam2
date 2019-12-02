@@ -81,135 +81,76 @@ footer {
     color: white;
     text-align: center;
 } 
-    * {box-sizing:border-box}
-    main{
-        margin-top: 20px;
-      background-image: url(../img/background.jpg);
-       background-position: center;
-     background-repeat: no-repeat;
-     height: 64pc;
-     background-size: cover;
-  } 
-    
-    /* form styles */
-    form{
-        float: left;
-        margin: 30px 0px 0px 40px;
-        background: rgba(0, 0, 0, 0.637);
-        text-align: center;
-        width: 80pc;
-        height: 59pc;
-        border-radius: 10%;
-        color: rgba(255, 255, 255, 0.849);
-    } 
-    fieldset{
-       
-        margin: 30px 0px 10px 170px;
-        width: 55pc;
-        height: 53pc;
+body{
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+
+}
+main{
+      margin-top: 20px;
+    /* background-image: url(../img/background.jpg); */
+     background-position: center;
+   background-repeat: no-repeat;
+   height: 72pc;
+   background-size: cover;
+}  
+form{
+    float: left;
+    margin: 30px 0px 0px 40px;
+    background: rgba(0, 0, 0, 0.637);
+    width: 80pc;
+    height: 68pc;
+    border-radius: 10%;
+    color: rgba(255, 255, 255, 0.849);
+} 
+fieldset{
+    padding: 90px;
+    width: 55pc;
+    height: 55pc;
+    margin-top: 30px;
+    margin-left: 90px;
+    border-radius: 20%;
+    font-size: 24px;
+    font-family: 'Varela Round', sans-serif;
+} 
+label{
+    font-size: 26px;
+     margin: 40px;
+     padding: 1px;
+    background: rgba(155, 149, 142, 0.514);
+    font-family: 'Varela Round', sans-serif;   
+}
+label:hover{
+    transform: scale(1.1);
+}
+
+#q2{
+    margin-right: -460px;
+}
+
+input{
+    float: left;
+    clear: both;
+    margin-left: 60px;
+}
+#name{
+    width: 15pc;
+    height: 20px;
+}
+span{
+    float: left;
+}
+#submit{
+    float: left;
+    width: 20pc;
+    padding: 15px;
+        background: rgba(22, 114, 114, 0.712);
+        margin: 50px 0px 20px 280px;
+        padding: 20px; 
         border-radius: 20%;
-        font-size: 24px;
-        font-family: 'Varela Round', sans-serif;
-    } 
-    label{
-        clear: both;
-        float: left;
-        width: 80%;
-        margin: 20px 290px 20px 26px;
-        font-size: 26px;
-        font-family: 'Varela Round', sans-serif;
-        
-    }
-    label:hover{
-        transform: scale(1.1);
-        color: rgba(8, 141, 141, 0.938);
-        background-size: 20pc;
-    }
-    #name,#place {
-        padding: 15px;
-        border: 30%;
-    
-    } 
-    #travelPurpose{
-        float: left;
-        width: 200px; 
-        clear: both;
-        border: solid;
-        list-style-type: none;
-        border: solid;
-        text-align: left;
-        padding: 5px;
-        margin: 5px; 
-    }
-    
-    #partner{
-        float: left;
-        width: 200px; 
-        clear: both;
-        padding: 20px;
-        margin: 10px;
-    }
-    
-    #submit{
-        float: left;
-        width: 20pc;
-        padding: 15px;
-            background: rgba(22, 114, 114, 0.712);
-            margin: 10px 0px 15px 270px;
-            padding: 20px; 
-            border-radius: 20%;
-            font-size: 25px;
-            font-style: italic;
-            font: bolder;
-    }
-    #submit:hover{
-        transform: scale(1.1);
-        color: rgba(247, 248, 248, 0.856);
-        transition: 850ms;
-    }                                         
-    
-
-/* Slideshow container */
-.slideshow-container,.slideshow1-container,.slideshow2-container,.slideshow3-container,.slideshow4-container,.slideshow5-container,.slideshow6-container,.slideshow7-container,.slideshow8-container,.slideshow9-container,.slideshow10-container,.slideshow11-container,.slideshow12-container,.slideshow13-container,.slideshow14-container,.slideshow15-container{
-  max-width: 1000px;
-  max-height: 600px;
-  position: relative;
-  margin: auto;
-}
-
-/* Hide the images by default */
-
-
-/* CHANGE IS DONE HERE, PREVIOUS IS .mySlides */
-.mySlides, .mySlides1Fade1, .mySlides2Fade2, .mySlides3Fade3, .mySlides4Fade4, .mySlides5Fade5, .mySlides6Fade6, .mySlides7Fade7, .mySlides8Fade8, .mySlides9Fade9, .mySlides10Fade10, .mySlides11Fade11, .mySlides12Fade12, .mySlides13Fade13, .mySlides14Fade14, .mySlides15Fade15 {
-  display: none;
-}
-
-/* Next & previous buttons */
-.prev, .next, .prev1, .next1, .prev2, .next2, .prev3, .next3, .prev4, .next4, .prev5, .next5, .prev6, .next6, .prev7, .next7, .prev8, .next8, .prev9, .next9, .prev10, .next10, .prev11, .next11, .prev12, .next12, .prev13, .next13, .prev14, .next14, .prev15, .next15{
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next, .next1, .next2, .next3, .next4, .next5, .next6, .next7, .next8, .next9, .next10, .next11, .next12, .next13, .next14, .next15{
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover, .prev1:hover, .next1:hover, .prev2:hover, .next2:hover, .prev3:hover, .next3:hover, .prev4:hover, .next4:hover, .prev5:hover, .next5:hover, .prev6:hover, .next6:hover, .prev7:hover, .next7:hover, .prev8:hover, .next8:hover, .prev9:hover, .next9:hover, .prev10:hover, .next10:hover, .prev11:hover, .next11:hover, .prev12:hover, .next12:hover, .prev13:hover, .next13:hover, .prev14:hover, .next14:hover, .prev15:hover, .next15:hover {
-  background-color: rgba(0,0,0,0.8);
+        font-size: 25px;
+        font-style: italic;
+        font: bolder;
 }
 
 /* Caption text */

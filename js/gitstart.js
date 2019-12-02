@@ -17,12 +17,9 @@ function TravelResult(
     money = this.budget;
 }
 
-// var places=["aya","taj","quds","Makkah","WadiRum","MountEverest","CapeTown","AquaClub","petra","China","pyramids","rome","dubai","malaysia","norway","turkey"];
 TravelResult.prototype.render = function () {
-    console.log(purpose);
 
     if (purpose === "leisureTourism") {
-        console.log(purpose === "leisureTourism");
         document.getElementById("religious").style.visibility = "hidden";
         document.getElementById("Historical").style.visibility = "hidden";
         document.getElementById("adventurous").style.visibility = "hidden";

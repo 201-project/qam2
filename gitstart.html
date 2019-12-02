@@ -44,40 +44,53 @@
     <main>
         <form id="travelForm">
             <fieldset>
-                <label for="name">What's your name?</label>
+                <label for="name" class="name">What's your name?</label>
+                <br/>
+                <input type="text" id="name" placeholder="type you name please" required />
                 <br />
-                <input type="text" id="name" placeholder="type your name please" required />
+                <label for="travelPurpose" id="q2">please pick the reason you want to travel for</label>
                 <br />
-                <!-- <label for="place">place you want to visit </label>
+                <input type="radio" id="travelPurpose" name="choice" value="leisureTourism" ><span>Recreational tourism</span> 
                 <br />
-                <input type="text" id="place" placeholder="type plase name" required />
-                <br /> -->
-                <label for="travelPurpose">please pick the reason you want to travel for</label>
+                <input type="radio"id="travelPurpose" name="choice" value="HistoricalTourism" ><span> Historical tourism</span>
                 <br />
-                <input type="radio" id="travelPurpose" name="choice" value="leisureTourism"> leisure tourism
+                <input type="radio"id="travelPurpose" name="choice" value="religiousTourism"><span>tourism</span> 
                 <br />
-                <input type="radio" id="travelPurpose" name="choice" value="HistoricalTourism">Historical tourism
+                <input type="radio"id="travelPurpose" name="choice" value="adventurousTourism"><span>adventurous tourism</span>
                 <br />
-                <input type="radio" id="travelPurpose" name="choice" value="religiousTourism">religious tourism
+                <label for="travelq" id="q3">who are you going to travel with?</label>
+                <br/>
+                <input type="radio"id="travelq" name="travelq"><span>Alone</span>
+                <br/>
+                <input type="radio"id="travelq" name="travelq"><span>Group</span>
+                <br/>
+                <label for="partner"class="q ">Would you like travelling with a company or on your own?</label>
                 <br />
-                <input type="radio" id="travelPurpose" name="choice" value="adventurousTourism">adventurous tourism
+                <input type="radio"id="partner" name="choice2"><span>Alone</span>
                 <br />
-                <label for="partner">Would you like travelling with a company or on your own?</label>
+                <input type="radio" id="partner"name="choice2"><span>tourism company</span>
                 <br />
-                <input type="radio" id="partner" name="choice1">Alone
+                
+                <label for="budget" class="q">please pick the budget that suits you the most</label>
                 <br />
-                <input type="radio" id="partner" name="choice1">tourism company
+                <input type="radio"id="budget" name="budget"><span>0 - 500 $ </span>   
                 <br />
-                <label for="budget">please pick the budget that suits you the most</label>
+                <input type="radio" id="budget"name="budget"><span>500$ - 3000 $</span>
                 <br />
-                <input type="radio" id="budget" name="budget">$0 - $500
+                <input type="radio" id="budget"name="budget"><span>3000 $- 5000 $</span>
                 <br />
-                <input type="radio" id="budget" name="budget">$500 - $3000
+                <input type="radio" id="budget"name="budget"><span>5000 $ and more</span>
                 <br />
-                <input type="radio" id="budget" name="budget">$3000 - $5000
-                <br />
-                <input type="radio" id="budget" name="budget">$5000 and more
-                <br />
+                <label for="days" id="q6">How long is your journey will be?</label>
+                <br/>
+                <input type="radio" id="days"name="days"><span>(1-5)</span>
+                <br/>
+                <input type="radio" id="days"name="days"><span>(5-15)</span>
+                <br/>
+                <input type="radio" id="days"name="days"><span>(15-30)</span>
+                <br/>
+                <input type="radio" id="days"name="days"><span>(30 and more)</span>
+                <br/>
                 <input type="submit" id="submit" />
             </fieldset>
         </form>
@@ -824,35 +837,21 @@
         <h1>Dubai</h1>
         <section id="dubai">
             <p id="dubaiP">
-                The most famous of the seven Emirates in the United Arab Emirates (UAE), Dubai is a world-class
-                destination.
-                The story of ‘modern’ Dubai is relatively short. The Emirate has been established for thousands of
-                years, yet within the last few decades, Dubai has transformed itself into the ambitious, dynamic Emirate
-                we experience today.
-                In 1894, the introduction of full tax exemption invited traders around the world to take advantage of
-                the Emirate’s unique benefits. In the 1940’s and 50’s, Dubai prospered in the gold trade, providing a
-                strong economy for its 40,000 population. This was just the start as the mid 1960’s unveiled the
-                discovery of oil and Dubai’s economy went into overdrive, leading to an influx of foreign workers.
-                In 1973, Dubai joined the other Emirates to adopt a single, uniform currency: the UAE dirham. In the
-                late 70s, the Jebel Ali Free Zone was created, comprising the world’s largest port and providing foreign
-                countries and businesses unrestricted import and export.
-                As oil prices increased, Dubai focused closely on developing free-trade and tourism. In 2000, the Dubai
-                Financial Market was established and by 2006 had made a net profit of approx AED 797.5 million. The
-                Emirate also invested into developing the Jebel Ali Free Zone, which soon became a success and
-                contributed 26% towards Dubai’s total GDP in 2007.
-                In addition to Jebel Ali, Dubai Internet City and Media City were two of the original free-zones,
-                offering foreign companies the tax free commercial space so highly sought after. With thousands of
-                companies moving offices to Dubai, the demand for residential real estate was unprecedented. The world’s
-                eyes turned on Dubai, with investors looking to invest in Dubai property before construction even began.
-                In 2002, The Crown Prince of Dubai made a commitment to allow foreign nationals to own a property
-                freehold within the Emirate. This was followed in 2006 with the publication of the lands law allowing
-                foreign nationals the right to register their freehold property.
-                Despite the recent global economic conditions, Dubai retains the fundamentals which excelled it to
-                become an investors dream, a place like no other and one of the most thriving destinations for real
-                estate in the world. While there has been an adjustment in demand, the market is now returning and
-                prices have bottomed out. Now, some of the best property deals ever witnessed are available on the
-                market. Some desirable areas such as Dubai Marina have in fact experienced a rise in rental prices.
-
+                    The most famous of the seven Emirates in the United Arab Emirates (UAE), Dubai is a world-class
+                    destination.
+                    The story of ‘modern’ Dubai is relatively short. The Emirate has been established for thousands of
+                    years, yet within the last few decades, Dubai has transformed itself into the ambitious, dynamic
+                    Emirate we experience today.
+                    In 1894, the introduction of full tax exemption invited traders around the world to take advantage
+                    of the Emirate’s unique benefits. In the 1940’s and 50’s, Dubai prospered in the gold trade, providing
+                    a strong economy for its 40,000 population. This was just the start as the mid 1960’s unveiled the
+                    discovery of oil and Dubai’s economy went into overdrive, leading to an influx of foreign workers.
+                    In 1973, Dubai joined the other Emirates to adopt a single, uniform currency: the UAE dirham. In the
+                    late 70s, the Jebel Ali Free Zone was created, comprising the world’s largest port and providing
+                    foreign countries and businesses unrestricted import and export.
+                    As oil prices increased, Dubai focused closely on developing free-trade and tourism. In 2000, the
+                    Dubai
+               
             </p>
             <a href="https://www.google.com/maps/search/map+of+dubai+in+html/@25.0750853,54.947555,10z/data=!3m1!4b1"><img
                     src="img/map.png"></a>
