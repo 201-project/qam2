@@ -85,75 +85,61 @@ main{
     background-image: url(../img/background.jpg);
      background-position: center;
    background-repeat: no-repeat;
-   height: 64pc;
+   height: 72pc;
    background-size: cover;
 }  
 form{
     float: left;
     margin: 30px 0px 0px 40px;
     background: rgba(0, 0, 0, 0.637);
-    text-align: center;
     width: 80pc;
-    height: 59pc;
+    height: 68pc;
     border-radius: 10%;
     color: rgba(255, 255, 255, 0.849);
 } 
 fieldset{
-   
-    /* float: left; */
-    margin: 30px 0px 10px 170px;
+    padding: 90px;
     width: 55pc;
-    height: 53pc;
+    height: 55pc;
+    margin-top: 30px;
+    margin-left: 90px;
     border-radius: 20%;
     font-size: 24px;
     font-family: 'Varela Round', sans-serif;
 } 
 label{
-    clear: both;
-    float: left;
-    width: 80%;
-    margin: 20px 290px 20px 26px;
     font-size: 26px;
-    font-family: 'Varela Round', sans-serif;
-    
+     margin: 40px;
+     padding: 1px;
+    background: rgba(155, 149, 142, 0.514);
+    font-family: 'Varela Round', sans-serif;   
 }
 label:hover{
     transform: scale(1.1);
-    color: rgba(8, 141, 141, 0.938);
-    /* background: rgba(255, 255, 255, 0.301); */
-    background-size: 20pc;
 }
-.name {
-    padding: 15px;
-    border: 30%;
 
-} 
-#travelPurpose{
+#q2{
+    margin-right: -460px;
+}
+
+input{
     float: left;
-    width: 200px; 
     clear: both;
-    border: solid;
-    list-style-type: none;
-    border: solid;
-    text-align: left;
-     padding: 5px;
-    margin: 5px; 
+    margin-left: 60px;
 }
-
-#partner{
+#name{
+    width: 15pc;
+    height: 20px;
+}
+span{
     float: left;
-    width: 200px; 
-    clear: both;
-    padding: 20px;
-    margin: 10px;
 }
-
 #submit{
     float: left;
     width: 20pc;
     padding: 15px;
         background: rgba(22, 114, 114, 0.712);
-        margin: 50px 0px 20px 60px;
+        margin: 50px 0px 20px 280px;
         padding: 20px; 
         border-radius: 20%;
         font-size: 25px;
