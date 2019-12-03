@@ -5,81 +5,61 @@
     <meta name="viewport" content="width=device-width">
 
     <title>Rock, Paper, Scissors</title>
-
-    <style>
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box
-}
-html{
-    font-size:100%
-}
-body{
-    padding:5%;
-    font:300 1.25em/1.6 monospace;
-    color:#000;
-}
-#audio{
-    text-align: center;
-}
-
-
-</style>
+    <link href="css/rps.css" rel="stylesheet">
 
 </head>
-<body>
+<header>
+    <nav>
+        <ul id="navv">
+            <li>
+                <a href="home.html">Home</a>
+            </li>
+            <li>
+                <a href="about-us.html">About Us</a>
+            </li>
+            <li class="contact-us">
+                Testimonials</li>
+            <li>
+                <a href="chart.html">Travel Data</a>
+            </li>
+            <li>
+                <a href="RPS.html">Play Simple Game</a>
+            </li>
+        </ul>
+        <ul id="contactus">
+            <li>
+                <a href="https://web.facebook.com/QAM2-Grouup-103143904504332/?modal=admin_todo_tour"><img
+                        class="imgs" src="img/facebook (1).png"></a>
+            </li>
+            <li>
+                <a href="mailto:Qam2group@gmail.com"><img class="imgs" src="img/email1.jpg " hight="150px"></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/qam2_group/"><img class="imgs" src="img/insta2.png"></a>
+            </li>
+            <li>
 
-<h1>Rock, Paper, Scissors</h1>
+                <a href="home.html"><img class="imgs" src="img/home2.png"></a>
+            </li>
+        </ul>
+        <img src="img/logo.jpg" alt="logo" id="logo">
+    </nav>
+</header>
+</header>
+<body>
+    <div><p>Rock, Paper, Scissors! ✊🤚✌️</p>
+    </div>
+    <input type=submit onclick="rsp(1)" value=✊>
+    <input type=submit onclick="rsp(2)" value=🤚>
+    <input type=submit onclick="rsp(3)" value=✌️>
 </body>
-<script>
-    var userChoice = prompt('Do you choose rock, paper or scissors?');
-if (! userChoice) {
-  document.write('<p>Player 1, you cheated! Refresh this screen and fight like a man.</p>');
-} else {
-  document.write('<p>Player 1:' + ' ' + userChoice + '</p>');
-}
-var computerChoice = Math.random();
-if (computerChoice < 0.34) {
-  computerChoice = 'rock';
-} else if(computerChoice <= 0.67) {
-  computerChoice = 'paper';
-} else {
-  computerChoice = 'scissors';
-}
-document.write('<p>Computer:' + ' ' + computerChoice + '</p>');
-var compare = function(choice1,choice2) {
-  if (choice1 === choice2) {
-    return 'It\'s a tie!';
-  }
-  if (choice1 === 'rock') {
-    if (choice2 === 'scissors') {
-      return 'You win!';
-    } else {
-      return 'You lose! Try again.';
-    }
-  }
-  if (choice1 === 'paper') {
-    if (choice2 === 'rock') {
-      return 'You win!';
-    } else {
-      return 'You lose! Try again.';
-    }
-  }
-  if (choice1 === 'scissors') {
-    if (choice2 === 'rock') {
-      return 'You lose! Try again.';
-    } else {
-      return 'You win!';
-    }
-  }
-  if (results === undefined){
-    return 'Try Again!!'
-  }
-};
-var results = compare(userChoice,computerChoice);
-document.write('<br><hr><br>' + results);
-</script> 
-<footer>
-</footer>
+
+  
+    <footer>
+        Copy-Right QAM2 Group 2019
+    </footer>
+
+  <!-- java script file -->
+
+  <script src="js/rsp.js"></script> 
 </html>
