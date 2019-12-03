@@ -1,5 +1,5 @@
 html{
-    background: rgba(65, 35, 17, 0.801);;
+    background: rgba(65, 35, 17, 0.801);
 }
 #logo {
     float: left;
@@ -139,6 +139,7 @@ span{
     width: 20pc;
     padding: 15px;
         background: rgba(22, 114, 114, 0.712);
+        color: white;
         margin: 50px 0px 20px 280px;
         padding: 20px; 
         border-radius: 20%;
@@ -148,6 +149,6 @@ span{
 }
 #submit:hover{
     transform: scale(1.1);
-    color: rgba(247, 248, 248, 0.856);
+    color: rgba(8, 8, 8, 0.856);
     transition: 850ms;
 }                                         
