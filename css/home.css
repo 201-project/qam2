@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Pacifico|Prompt&display=swap');
 html{
-    background: rgba(0, 0, 0, 0.664);
+    background: rgba(68, 29, 4, 0.705);
 }
 #logo {
     float: left;
@@ -155,14 +155,17 @@ div p {
     clear: both;
     float: left;  
     margin-top: 30px; 
-    margin-left: 6pc;
+    margin-left: 105px;
     margin-bottom: 40px;
 }
 .mySlides p{
  padding: 30px;
  font-size: 19px;
  border: solid;
+ width: 65pc;
+ margin-left:0pc ;
  color: rgba(255, 255, 255, 0.925);
+ border-radius: 5%;
  font-family: 'Prompt', sans-serif;
 }
 .mySlides p:hover{
