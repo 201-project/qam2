@@ -18,31 +18,53 @@ function TravelResult(
 }
 
 TravelResult.prototype.render = function () {
-
+    // var container = document.getElementById("container");
+    // // var iframe = document.getElementById("container");
+    // var iframe = document.getElementById('iframe')
+    // iframe.setAttribute('src', "leisure")
+    
     if (purpose === "leisureTourism") {
-        document.getElementById("religious").style.visibility = "hidden";
-        document.getElementById("Historical").style.visibility = "hidden";
-        document.getElementById("adventurous").style.visibility = "hidden";
+        // document.getElementById("religious").style.visibility = "hidden";
+        // document.getElementById("Historical").style.visibility = "hidden";
+        // document.getElementById("adventurous").style.visibility = "hidden";
+        var elem = document.getElementById('religious');
+        elem.parentNode.removeChild(elem);
+        var elem = document.getElementById('Historical');
+        elem.parentNode.removeChild(elem);
+        var elem = document.getElementById('adventurous');
+        elem.parentNode.removeChild(elem);
+
     } else if (purpose === "HistoricalTourism") {
-        document.getElementById("religious").style.visibility = "hidden";
-        document.getElementById("leisure").style.visibility = "hidden";
-        document.getElementById("adventurous").style.visibility = "hidden";
-        // if (money === "$0 - $500") {
-        //     document.getElementById("religious").style.visibility = "hidden";
-        //     document.getElementById("religious").style.visibility = "hidden";
-        //     document.getElementById("religious").style.visibility = "hidden";
-
-        // }
-    }else if (purpose === "religiousTourism") {
-        document.getElementById("leisure").style.visibility = "hidden";
-        document.getElementById("Historical").style.visibility = "hidden";
-        document.getElementById("adventurous").style.visibility = "hidden";
+        // document.getElementById("religious").style.visibility = "hidden";
+        // document.getElementById("leisure").style.visibility = "hidden";
+        // document.getElementById("adventurous").style.visibility = "hidden";
+        var elem = document.getElementById('religious');
+        elem.parentNode.removeChild(elem);
+        var elem = document.getElementById('leisure');
+        elem.parentNode.removeChild(elem);
+        var elem = document.getElementById('adventurous');
+        elem.parentNode.removeChild(elem);
+     } else if (purpose === "religiousTourism") {
+        // document.getElementById("leisure").style.visibility = "hidden";
+        // document.getElementById("Historical").style.visibility = "hidden";
+        // document.getElementById("adventurous").style.visibility = "hidden";
+        var elem = document.getElementById('leisure');
+        elem.parentNode.removeChild(elem);
+        var elem = document.getElementById('Historical');
+        elem.parentNode.removeChild(elem);
+        var elem = document.getElementById('adventurous');
+        elem.parentNode.removeChild(elem);
     }else if (purpose === "adventurousTourism") {
-        document.getElementById("religious").style.visibility = "hidden";
-        document.getElementById("Historical").style.visibility = "hidden";
-        document.getElementById("leisure").style.visibility = "hidden";
+        // document.getElementById("religious").style.visibility = "hidden";
+        // document.getElementById("Historical").style.visibility = "hidden";
+        // document.getElementById("leisure").style.visibility = "hidden";
+        var elem = document.getElementById('religious');
+        elem.parentNode.removeChild(elem);
+        var elem = document.getElementById('Historical');
+        elem.parentNode.removeChild(elem);
+        var elem = document.getElementById('Historical');
+        elem.parentNode.removeChild(elem);
     }
-
 }
 form.addEventListener("submit", function (event) {
     event.preventDefault();
@@ -53,3 +75,7 @@ form.addEventListener("submit", function (event) {
     form.reset();
 });
 
+// function removeDummy() {
+//     var elem = document.getElementById('dummy');
+//     elem.parentNode.removeChild(elem);
+//    }

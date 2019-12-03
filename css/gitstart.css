@@ -102,32 +102,30 @@ form{
     height: 68pc;
     border-radius: 10%;
     color: rgba(255, 255, 255, 0.849);
-} 
+}
 fieldset{
     padding: 90px;
     width: 55pc;
-    height: 55pc;
+    height: 53pc;
     margin-top: 30px;
     margin-left: 90px;
     border-radius: 20%;
     font-size: 24px;
     font-family: 'Varela Round', sans-serif;
-} 
+}
 label{
     font-size: 26px;
      margin: 40px;
      padding: 1px;
     background: rgba(155, 149, 142, 0.514);
-    font-family: 'Varela Round', sans-serif;   
+    font-family: 'Varela Round', sans-serif;
 }
 label:hover{
     transform: scale(1.1);
 }
-
 #q2{
     margin-right: -460px;
 }
-
 input{
     float: left;
     clear: both;
@@ -145,14 +143,19 @@ span{
     width: 20pc;
     padding: 15px;
         background: rgba(22, 114, 114, 0.712);
+        color: white;
         margin: 50px 0px 20px 280px;
-        padding: 20px; 
+        padding: 20px;
         border-radius: 20%;
         font-size: 25px;
         font-style: italic;
         font: bolder;
 }
-
+#submit:hover{
+    transform: scale(1.1);
+    color: rgba(8, 8, 8, 0.856);
+    transition: 850ms;
+}
 /* Caption text */
 .text {
   color: #f2f2f2;
