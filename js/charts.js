@@ -10,7 +10,7 @@ var myChart = new Chart(ctx, {
         'rgb(12, 75, 75)',
 
       borderColor:
-        'rgba(75, 192, 192, 1)',
+        'rgb(253, 248, 253)' ,
       borderWidth: 1,
     }],
   },
