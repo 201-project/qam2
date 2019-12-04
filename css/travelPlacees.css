@@ -176,6 +176,7 @@ main{
     font-family: 'Righteous', cursive;
     font-size: 35px;
     padding: 2%;
+    clear: both;
     border-radius: 3%;
     color: rgba(51, 146, 102, 0.822); 
     text-align: center;
