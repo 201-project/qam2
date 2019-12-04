@@ -179,7 +179,7 @@ TravelResult.prototype.render = function () {
         Catholic Church share.`
         var image = document.getElementById('image')
         container.appendChild(image)
-        image.setAttribute("src", 'img/quds4.jpg');
+        image.setAttribute("src", 'img/palas1.jpg');
         var map = document.getElementById('iframe')
         container.appendChild(map)
         map.setAttribute ("src",'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d217027.54126626218!2d35.0352713!3d31.7962419!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1502d7d634c1fc4b%3A0xd96f623e456ee1cb!2sJerusalem%2C%20Israel!5e0!3m2!1sen!2sjo!4v1575300478142!5m2!1sen!2sjo');

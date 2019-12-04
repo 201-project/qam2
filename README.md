@@ -14,7 +14,7 @@
 2. chart
 3. slide show
 4. comment command //
-5. consol
+5. consol.log
 6. function
 7.alot of CSS proparty
 
