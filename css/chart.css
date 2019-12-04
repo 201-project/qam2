@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Calistoga&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Prompt|Righteous&display=swap');
 html{
-    background: rgba(0, 0, 0, 0.137);
-    background-image: url(../img/background.jpg);
+    background: rgba(65, 35, 17, 0.801);
+    /* background-image: url(../img/background.jpg); */
 }
 #logo {
     float: left;
@@ -164,7 +165,7 @@ footer {
 }
 
 main{
-    background:rgba(0, 0, 0, 0.562);
+    background:rgba(0, 0, 0, 0.445);
     /* display: block; */
 }
 .clearfix{
@@ -172,28 +173,30 @@ main{
 }
 
 #ayah {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Righteous', cursive;
+    font-size: 35px;
+    padding: 2%;
+    clear: both;
     border-radius: 3%;
     color: rgba(51, 146, 102, 0.822); 
     text-align: center;
-    padding: 1%;
     border: thin black solid;
-    background-color: rgba(255,255,255,.9);
+    background-color: rgba(255, 255, 255, 0.808);
 }
 #ayaP{
-    height: 20pc;
-    width: 30pc;
-    overflow: auto;
+    height: 330px;
+    width: 28pc;
     font-size: 20px;
+    margin-right: 117px;
+    padding: 30px 40px 40px 25px;
     /* margin-top: pc; */
-    margin-right: 20px;
-    padding: 30px 60px 40px 35px;
+    overflow: auto;
     text-align: center;
     float: right;
     background-color: rgba(46, 117, 102, 0.77);
     color: white;
-    border-radius: 1%;
-    font-family: 'Lato', sans-serif;  
+    border-radius: 3%;
+    font-family: 'Lato', sans-serif;   
 }
 
 .slideshow-container{
@@ -203,35 +206,36 @@ main{
 }
 iframe {
     float: left;
-    width: 38pc;
-    height: 24pc;
-    margin:2pc -2pc 0pc 4pc;
+    width: 36pc;
+    height: 25pc;
+    margin:23px -5pc 0pc 7pc;
     border-radius: 3%;
 }                
 
 #tajh{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Righteous', cursive;
+    font-size: 35px;
+    padding: 2%;
     border-radius: 3%;
     color: rgba(51, 146, 102, 0.822);
     margin-top: 6%;
-    padding: 1%;
     text-align: center;
     border: thin black solid;
     background-color: rgba(255,255,255,.9);
 }
 #tajP{
-    height: 20pc;
-    width: 30pc;
-    overflow: auto;
+    height: 330px;
+    width: 28pc;
     font-size: 20px;
+    margin-right: 117px;
+    padding: 30px 40px 40px 25px;
     /* margin-top: pc; */
-    margin-right: 20px;
-    padding: 30px 60px 40px 35px;
+    overflow: auto;
     text-align: center;
     float: right;
     background-color: rgba(46, 117, 102, 0.77);
     color: white;
-    border-radius: 1%;
+    border-radius: 3%;
     font-family: 'Lato', sans-serif;    
 } 
 .slideshow1-container{
@@ -240,28 +244,29 @@ iframe {
     margin: 3pc 10pc 0pc 7pc;
 }
 #qudsh{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Righteous', cursive;
+    font-size: 35px;
+    padding: 2%;
     border-radius: 3%;
     color: rgba(51, 146, 102, 0.822);
-    padding: 1%;
     text-align: center;
     border: thin black solid;
     background-color: rgba(255,255,255,.9);  
 }                 
 #qudsP{
-    height: 20pc;
-    width: 30pc;
-    overflow: auto;
+    height: 330px;
+    width: 28pc;
     font-size: 20px;
+    margin-right: 117px;
+    padding: 30px 40px 40px 25px;
     /* margin-top: pc; */
-    margin-right: 20px;
-    padding: 30px 60px 40px 35px;
+    overflow: auto;
     text-align: center;
     float: right;
     background-color: rgba(46, 117, 102, 0.77);
     color: white;
-    border-radius: 1%;
-    font-family: 'Lato', sans-serif;
+    border-radius: 3%;
+    font-family: 'Lato', sans-serif; 
 }
 .slideshow2-container{
     display: block;
@@ -269,58 +274,62 @@ iframe {
     margin: 3pc 10pc 0pc 7pc;
 }
 #Makkahh{
-    font-family: 'Lato', sans-serif;
+    
+    font-family: 'Righteous', cursive;
+    font-size: 35px;
+    padding: 2%;
     border-radius: 3%;
     color: rgba(51, 146, 102, 0.822);
-    padding: 1%;
+   
     text-align: center;
     border: thin black solid;
     background-color: rgba(255,255,255,.9);
 } 
 
 #MakkahP{
-    height: 20pc;
-    width: 30pc;
-    overflow: auto;
+    height: 330px;
+    width: 28pc;
     font-size: 20px;
+    margin-right: 117px;
+    padding: 30px 40px 40px 25px;
     /* margin-top: pc; */
-    margin-right: 20px;
-    padding: 30px 60px 40px 35px;
+    overflow: auto;
     text-align: center;
     float: right;
     background-color: rgba(46, 117, 102, 0.77);
     color: white;
-    border-radius: 1%;
-    font-family: 'Lato', sans-serif;
+    border-radius: 3%;
+    font-family: 'Lato', sans-serif; 
 }
 .slideshow3-container{
     display: block;
     float: left;
     margin: 3pc 10pc 0pc 7pc;
 }
-#WadiRumh{
-    font-family: 'Lato', sans-serif;
+#WadiRumh{    
+    font-family: 'Righteous', cursive;
+    font-size: 35px;
+    padding: 2%;
     border-radius: 3%;
     color: rgba(51, 146, 102, 0.822);
-    padding: 1%;
     text-align: center;
     border: thin black solid;
     background-color: rgba(255,255,255,.9);
 }
 #WadiRumP{
-    height: 20pc;
-    width: 30pc;
-    overflow: auto;
+    height: 330px;
+    width: 28pc;
     font-size: 20px;
+    margin-right: 117px;
+    padding: 30px 40px 40px 25px;
     /* margin-top: pc; */
-    margin-right: 20px;
-    padding: 30px 60px 40px 35px;
+    overflow: auto;
     text-align: center;
     float: right;
     background-color: rgba(46, 117, 102, 0.77);
     color: white;
-    border-radius: 1%;
-    font-family: 'Lato', sans-serif;
+    border-radius: 3%;
+    font-family: 'Lato', sans-serif; 
 }
 .slideshow4-container{
     display: block;
@@ -328,28 +337,29 @@ iframe {
     margin: 3pc 10pc 0pc 7pc;
 }
 #MountEveresth{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Righteous', cursive;
+    font-size: 35px;
+    padding: 2%;
     border-radius: 3%;
     color: rgba(51, 146, 102, 0.822);
-    padding: 1%;
     text-align: center;
     border: thin black solid;
     background-color: rgba(255,255,255,.9);
 }
 #MountEverestP{
-    height: 20pc;
-    width: 30pc;
-    overflow: auto;
+    height: 330px;
+    width: 28pc;
     font-size: 20px;
+    margin-right: 117px;
+    padding: 30px 40px 40px 25px;
     /* margin-top: pc; */
-    margin-right: 20px;
-    padding: 30px 60px 40px 35px;
+    overflow: auto;
     text-align: center;
     float: right;
     background-color: rgba(46, 117, 102, 0.77);
     color: white;
-    border-radius: 1%;
-    font-family: 'Lato', sans-serif;
+    border-radius: 3%;
+    font-family: 'Lato', sans-serif; 
 }
 .slideshow5-container{
     display: block;
@@ -357,28 +367,29 @@ iframe {
     margin: 3pc 10pc 0pc 7pc;
 }
 #CapeTownh{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Righteous', cursive;
+    font-size: 35px;
+    padding: 2%;
     border-radius: 3%;
     color: rgba(51, 146, 102, 0.822);
-    padding: 1%;
     text-align: center;
     border: thin black solid;
     background-color: rgba(255,255,255,.9);  
 }
 #CapeTownP{
-    height: 20pc;
-    width: 30pc;
-    overflow: auto;
+    height: 330px;
+    width: 28pc;
     font-size: 20px;
+    margin-right: 117px;
+    padding: 30px 40px 40px 25px;
     /* margin-top: pc; */
-    margin-right: 20px;
-    padding: 30px 60px 40px 35px;
+    overflow: auto;
     text-align: center;
     float: right;
     background-color: rgba(46, 117, 102, 0.77);
     color: white;
-    border-radius: 1%;
-    font-family: 'Lato', sans-serif;
+    border-radius: 3%;
+    font-family: 'Lato', sans-serif; 
 }
 .slideshow6-container{
     display: block;
@@ -386,28 +397,29 @@ iframe {
     margin: 3pc 10pc 0pc 7pc;
 }
 #AquaClubh{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Righteous', cursive;
+    font-size: 35px;
+    padding: 2%;
     border-radius: 3%;
     color: rgba(51, 146, 102, 0.822);
-    padding: 1%;
     text-align: center;
     border: thin black solid;
     background-color: rgba(255,255,255,.9);    
 }
 #AquaClubP{
-    height: 20pc;
-    width: 30pc;
-    overflow: auto;
+    height: 330px;
+    width: 28pc;
     font-size: 20px;
+    margin-right: 117px;
+    padding: 30px 40px 40px 25px;
     /* margin-top: pc; */
-    margin-right: 20px;
-    padding: 30px 60px 40px 35px;
+    overflow: auto;
     text-align: center;
     float: right;
     background-color: rgba(46, 117, 102, 0.77);
     color: white;
-    border-radius: 1%;
-    font-family: 'Lato', sans-serif;
+    border-radius: 3%;
+    font-family: 'Lato', sans-serif; 
 }
 .slideshow7-container{
     display: block;
@@ -415,28 +427,29 @@ iframe {
     margin: 3pc 10pc 0pc 7pc;
 }
 #petrah{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Righteous', cursive;
+    font-size: 35px;
+    padding: 2%;
     border-radius: 3%;
     color: rgba(51, 146, 102, 0.822);
-    padding: 1%;
     text-align: center;
     border: thin black solid;
     background-color: rgba(255,255,255,.9); 
 }
 #petraP{
-    height: 20pc;
-    width: 30pc;
-    overflow: auto;
+    height: 330px;
+    width: 28pc;
     font-size: 20px;
+    margin-right: 117px;
+    padding: 30px 40px 40px 25px;
     /* margin-top: pc; */
-    margin-right: 20px;
-    padding: 30px 60px 40px 35px;
+    overflow: auto;
     text-align: center;
     float: right;
     background-color: rgba(46, 117, 102, 0.77);
     color: white;
-    border-radius: 1%;
-    font-family: 'Lato', sans-serif;
+    border-radius: 3%;
+    font-family: 'Lato', sans-serif; 
 }
 .slideshow8-container{
     display: block;
@@ -444,28 +457,29 @@ iframe {
     margin: 3pc 10pc 0pc 7pc;
 }
 #Chinah{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Righteous', cursive;
+    font-size: 35px;
+    padding: 2%;
     border-radius: 3%;
     color: rgba(51, 146, 102, 0.822);
-    padding: 1%;
     text-align: center;
     border: thin black solid;
     background-color: rgba(255,255,255,.9);   
 }
 #ChinaP{
-    height: 20pc;
-    width: 30pc;
-    overflow: auto;
+    height: 330px;
+    width: 28pc;
     font-size: 20px;
+    margin-right: 117px;
+    padding: 30px 40px 40px 25px;
     /* margin-top: pc; */
-    margin-right: 20px;
-    padding: 30px 60px 40px 35px;
+    overflow: auto;
     text-align: center;
     float: right;
     background-color: rgba(46, 117, 102, 0.77);
     color: white;
-    border-radius: 1%;
-    font-family: 'Lato', sans-serif;
+    border-radius: 3%;
+    font-family: 'Lato', sans-serif; 
 }
 .slideshow9-container{
     display: block;
@@ -473,27 +487,28 @@ iframe {
     margin: 3pc 10pc 0pc 7pc;
 }
 #pyramidsh{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Righteous', cursive;
+    font-size: 35px;
+    padding: 2%;
     border-radius: 3%;
     color: rgba(51, 146, 102, 0.822);
-    padding: 1%;
     text-align: center;
     border: thin black solid;
     background-color: rgba(255,255,255,.9);
 }
 #pyramidsP{
-    height: 20pc;
-    width: 30pc;
-    overflow: auto;
+    height: 330px;
+    width: 28pc;
     font-size: 20px;
+    margin-right: 117px;
+    padding: 30px 40px 40px 25px;
     /* margin-top: pc; */
-    margin-right: 20px;
-    padding: 30px 60px 40px 35px;
+    overflow: auto;
     text-align: center;
     float: right;
     background-color: rgba(46, 117, 102, 0.77);
     color: white;
-    border-radius: 1%;
+    border-radius: 3%;
     font-family: 'Lato', sans-serif; 
 }
 .slideshow10-container{
@@ -502,28 +517,29 @@ iframe {
     margin: 3pc 10pc 0pc 7pc;
 }
 #romeh{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Righteous', cursive;
+    font-size: 35px;
+    padding: 2%;
     border-radius: 3%;
     color: rgba(51, 146, 102, 0.822);
-    padding: 1%;
     text-align: center;
     border: thin black solid;
     background-color: rgba(255,255,255,.9);
 }
 #romeP{
-    height: 20pc;
-    width: 30pc;
-    overflow: auto;
+    height: 330px;
+    width: 28pc;
     font-size: 20px;
+    margin-right: 117px;
+    padding: 30px 40px 40px 25px;
     /* margin-top: pc; */
-    margin-right: 20px;
-    padding: 30px 60px 40px 35px;
+    overflow: auto;
     text-align: center;
     float: right;
     background-color: rgba(46, 117, 102, 0.77);
     color: white;
-    border-radius: 1%;
-    font-family: 'Lato', sans-serif;
+    border-radius: 3%;
+    font-family: 'Lato', sans-serif; 
 
 }
 .slideshow11-container{
@@ -532,28 +548,30 @@ iframe {
     margin: 3pc 10pc 0pc 7pc;
 }
 #dubaih{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Righteous', cursive;
+    font-size: 35px;
+    padding: 2%;
     border-radius: 3%;
     color: rgba(51, 146, 102, 0.822);
-    padding: 1%;
+     
     text-align: center;
     border: thin black solid;
     background-color: rgba(255,255,255,.9);
 }
 #dubaiP{
-    height: 20pc;
-    width: 30pc;
-    overflow: auto;
+    height: 330px;
+    width: 28pc;
     font-size: 20px;
+    margin-right: 117px;
+    padding: 30px 40px 40px 25px;
     /* margin-top: pc; */
-    margin-right: 20px;
-    padding: 30px 60px 40px 35px;
+    overflow: auto;
     text-align: center;
     float: right;
     background-color: rgba(46, 117, 102, 0.77);
     color: white;
-    border-radius: 1%;
-    font-family: 'Lato', sans-serif;
+    border-radius: 3%;
+    font-family: 'Lato', sans-serif; 
     
 }
 .slideshow12-container{
@@ -562,29 +580,30 @@ iframe {
     margin: 3pc 10pc 0pc 7pc;
 }
 #malaysiah{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Righteous', cursive;
+    font-size: 35px;
+    padding: 2%;
     border-radius: 3%;
     color: rgba(51, 146, 102, 0.822);
-    padding: 1%;
     text-align: center;
     border: thin black solid;
     background-color: rgba(255,255,255,.9);
 }
 #malaysiaP{
     
-    height: 20pc;
-    width: 30pc;
-    overflow: auto;
+    height: 330px;
+    width: 28pc;
     font-size: 20px;
+    margin-right: 117px;
+    padding: 30px 40px 40px 25px;
     /* margin-top: pc; */
-    margin-right: 20px;
-    padding: 30px 60px 40px 35px;
+    overflow: auto;
     text-align: center;
     float: right;
     background-color: rgba(46, 117, 102, 0.77);
     color: white;
-    border-radius: 1%;
-    font-family: 'Lato', sans-serif; 
+    border-radius: 3%;
+    font-family: 'Lato', sans-serif;  
 }
 .slideshow13-container{
     display: block;
@@ -592,28 +611,29 @@ iframe {
     margin: 3pc 10pc 0pc 7pc;
 }
 #norwayh{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Righteous', cursive;
+    font-size: 35px;
+    padding: 2%;
     border-radius: 3%;
     color: rgba(51, 146, 102, 0.822);
-    padding: 1%;
     text-align: center;
     border: thin black solid;
     background-color: rgba(255,255,255,.9);
 }
 #norwayP{
-    height: 20pc;
-    width: 30pc;
-    overflow: auto;
+    height: 330px;
+    width: 28pc;
     font-size: 20px;
+    margin-right: 117px;
+    padding: 30px 40px 40px 25px;
     /* margin-top: pc; */
-    margin-right: 20px;
-    padding: 30px 60px 40px 35px;
+    overflow: auto;
     text-align: center;
     float: right;
     background-color: rgba(46, 117, 102, 0.77);
     color: white;
-    border-radius: 1%;
-    font-family: 'Lato', sans-serif;
+    border-radius: 3%;
+    font-family: 'Lato', sans-serif; 
     
 }
 .slideshow14-container{
@@ -622,28 +642,29 @@ iframe {
     margin: 3pc 10pc 0pc 7pc;
 }
 #turkeyh{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Righteous', cursive;
+    font-size: 35px;
+    padding: 2%;
     border-radius: 3%;
     color: rgba(51, 146, 102, 0.822);
-    padding: 1%;
     text-align: center;
     border: thin black solid;
     background-color: rgba(255,255,255,.9);
 }
 #turkeyP{
-    height: 20pc;
-    width: 30pc;
-    overflow: auto;
+    height: 330px;
+    width: 28pc;
     font-size: 20px;
+    margin-right: 117px;
+    padding: 30px 40px 40px 25px;
     /* margin-top: pc; */
-    margin-right: 20px;
-    padding: 30px 60px 40px 35px;
+    overflow: auto;
     text-align: center;
     float: right;
     background-color: rgba(46, 117, 102, 0.77);
     color: white;
-    border-radius: 1%;
-    font-family: 'Lato', sans-serif;
+    border-radius: 3%;
+    font-family: 'Lato', sans-serif; 
 }
 .slideshow15-container{
     display: block;
