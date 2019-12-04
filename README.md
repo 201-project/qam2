@@ -1,25 +1,29 @@
-# qam2
-## This project is talking cookie-stand:
-* the sales for 5 shop in different place. 
-* numper of custmors,and the amount of coockies that have sold. 
+# Qam2
+## This project is talking Qam2 Group:
+* It's a toresum travel 
+* It's help the user to select his Journey depending on his input. 
 
-**This project is built by Qusai-alhanaktah**
-
-*I got a little help from my instructor*
+## This project is built by 
+1.As'har oran
+2.Qusai hanaqtah
+3.Mohammed hawamdeh
+4. mohammed Sboul
 
 ## The tools which i have used:
-1. promot 
-2. alert
-3. switch
+1. local storage  
+2. chart
+3. slide show
 4. comment command //
 5. consol
 6. function
+7.alot of CSS proparty
 
-## live link:[here](https://qusai-alhanaktah.github.io/cookie-stand/)
+## live link:[here]()
 
 ## license
 This project is licensed under the MIT License.
 
 ## Acknowledgements:
-1. copy the [reset.css](https://meyerweb.com/eric/tools/css/reset/)
+1. copy the [slideShow ](https://www.w3schools.com/howto/howto_js_slideshow.asp)
 2. copy the [.eslintrc.json](https://github.com/LTUC/amman-201d2/blob/master/configs/.eslintrc.json)
+3. copy the [Game.js]()

@@ -1,0 +1,112 @@
+html{
+    background: rgba(0, 0, 0, 0.219);
+}
+      #logo {
+    float: left;
+    height: 60px;
+    width: 80px;
+    margin: -55px 30px 0px 30px;
+    border-radius: 30%;
+}
+#logo:hover{
+    width: 90px;
+    height: 70px;
+    transition: 900ms;
+}
+header nav{
+    /* position: fixed; */
+    background: rgba(0, 0, 0, 0.76);
+    color: white;
+    height: 60px;
+    padding: 10px;
+   
+}
+#navv li:hover{
+    color: rgb(12, 75, 75);
+    background: rgba(253, 252, 253, 0.726);
+    height: 30px;
+    width: 30px;
+    transition: 850ms;
+}
+#navv {
+    
+    margin-left: 80px;
+}
+#navv li a{
+    
+    text-decoration: none;
+    color: rgb(247, 243, 247);
+}
+#navv li a:hover{
+    color: teal;
+}
+#navv li {
+    display: inline;
+    padding: 20px;
+    text-align: center;
+    font:bolder;
+    font-size: 20px;
+}
+#contactus{
+    float: right;
+    margin: -30px 35px 0px 0px;
+    padding: -20px;
+    
+}
+#contactus li{
+    display: inline;
+    padding: 5px;
+    text-align: center;
+    font:bolder;
+    font-size: 20px;
+}
+.imgs:hover{
+    background: none;
+    transform: scale(0.9);
+
+}
+.imgs{
+    padding: -35px;
+    width: 30px;
+    height: 30px;
+}
+      p {
+	font-size: 20px;
+	text-shadow: 0 0 80px white;
+}
+body{
+    position: fixed;
+  }
+
+
+div p {
+    font-size:20px;
+    color:black;
+    text-align:center;
+    padding:0;
+}
+
+input{
+      box-shadow: 0 0 80px 0 white;
+      border:1px solid rgba(255,255,255,1);
+      background-color:rgba(255,255,255,0.5);
+      border-radius:12px;width:50px;height:50px;
+      text-align:center;
+      margin:7%;
+      cursor: pointer;
+      margin-left: 15pc;
+}
+hr{
+      border:1px solid;
+      border-radius:10px;
+}
+footer {
+    clear: both;
+    background: rgba(0, 0, 0, 0.829);
+    padding: 30px;
+    margin-top: 150px;
+    border: white;
+    color: white;
+    text-align: center;
+    width: 1290px;
+}

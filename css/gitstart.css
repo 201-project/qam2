@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Calistoga&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
 html{
-    background: rgba(65, 35, 17, 0.801);;
+    background: rgba(68, 29, 4, 0.705);
 }
 #logo {
     float: left;
@@ -70,7 +70,7 @@ html{
 footer {
     clear: both;
     background: rgba(0, 0, 0, 0.829);
-    margin-top:20pc;
+    margin-top:30pc;
     padding: 30px;
     border: white;
     color: white;
@@ -133,6 +133,7 @@ span{
     width: 20pc;
     padding: 15px;
         background: rgba(22, 114, 114, 0.712);
+        color: white;
         margin: 50px 0px 20px 280px;
         padding: 20px;
         border-radius: 20%;
@@ -142,19 +143,53 @@ span{
 }
 #submit:hover{
     transform: scale(1.1);
-    color: rgba(247, 248, 248, 0.856);
+    color: rgba(8, 8, 8, 0.856);
     transition: 850ms;
 }
-#ayah{
-    width: 80pc;
-    margin-left: -7pc;
-    padding: 5%;
-
+#h{
+margin-top: 3pc;
+font-family: 'Righteous', cursive;
+    font-size: 35px;
+    padding: 2%;
+    clear: both;
+    border-radius: 3%;
+    color: rgba(51, 146, 102, 0.822); 
+    text-align: center;
+    border: thin black solid;
+    background-color: rgba(255, 255, 255, 0.808);
 }
-
-#ayaP{
-    margin-top:5PC ;
+#iframe{
+    position: absolute;
+    top: 360%;
+    float: left;
+    width: 36pc;
+    height: 25pc;
+    margin:23px -5pc 0pc 7pc;
+    border-radius: 3%;
 }
-#ayaiframe{
-    margin-top:5PC  
+#image{
+    float: left;
+    width: 65pc;
+    height: 23pc;
+    margin-left: 9pc;
+    margin-bottom: 10pc;
+    
+}
+#brief{
+    height: 330px;
+    width: 28pc;
+    font-size: 20px;
+    margin-right: 117px;
+    padding: 30px 40px 40px 25px;
+    margin-top: pc;
+    overflow: auto;
+    text-align: center;
+    float: right;
+    background-color: rgba(46, 117, 102, 0.77);
+    color: white;
+    border-radius: 3%;
+    font-family: 'Lato', sans-serif;  
+}
+#clearDiv{
+    clear: both;
 }

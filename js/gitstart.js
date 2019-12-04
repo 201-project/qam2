@@ -137,20 +137,10 @@ TravelResult.prototype.render = function () {
         var container = document.getElementById("container")
         var h2El = document.getElementById('h')
         container.appendChild(h2El)
-        h2El.setAttribute("src", `Hagia Sophia`)
-        var pEl = document.createElement('brief')
+        h2El.textContent =`Hagia Sophia`
+        var pEl = document.getElementById('brief')
         container.appendChild(pEl)
-        pEl.setAttribute("src", `The Hagia Sophia was a former Eastern Orthodox cathedral before it was converted into a mosque by Mehmed
-      the Conqueror, and then to a religious museum in 1935, located in Istanbul, Turkey. It is one of the
-      most prominent examples of Byzantine architecture and Ottoman decoration.
-      Emperor Justinian began to build this church in 532 AD, and it took about five years to build it
-      officially opened in 537 AD, and Justinian did not want to build a church in the fashionable style of
-      his time, but always tended to new innovation. He commissioned the architects Isodore al-Melisi and
-      Anthemius Tralini to build this monumental religious edifice.
-      The attention was directed towards the beautification of the building and a large ornamentation from the
-      inside. Justinian used to gather the possibilities of the empire to decorate and decorate the building.
-      Of the plaster and painted above geometric decorations and Arabic calligraphy, but many of these layers
-      fell and the ancient scenes appeared below.`)
+        pEl.textContent= 'The Hagia Sophia was a former Eastern Orthodox cathedral before it was converted into a mosque by Mehmed the Conqueror, and then to a religious museum in 1935, located in Istanbul, Turkey. It is one of the most prominent examples of Byzantine architecture and Ottoman decoration. Emperor Justinian began to build this church in 532 AD, and it took about five years to build it officially opened in 537 AD, and Justinian did not want to build a church in the fashionable style of his time, but always tended to new innovation. He commissioned the architects Isodore al-Melisi and Anthemius Tralini to build this monumental religious edifice The attention was directed towards the beautification of the building and a large ornamentation from the inside. Justinian used to gather the possibilities of the empire to decorate and decorate the building. Of the plaster and painted above geometric decorations and Arabic calligraphy, but many of these layers fell and the ancient scenes appeared below.'
         var image = document.getElementById('image')
         container.appendChild(image)
         image.setAttribute("src", 'img/aya.jpg');
@@ -164,10 +154,10 @@ TravelResult.prototype.render = function () {
         var container = document.getElementById("container")
         var h2El = document.getElementById('h')
         container.appendChild(h2El)
-        h2El.setAttribute("src", `Jerusalem`)
+        h2El.textContent =`Jerusalem`
         var pEl = document.getElementById('brief')
         container.appendChild(pEl)
-        pEl.setAttribute("src", `The area of Palestine, including Jerusalem, is the landing site of the monotheistic religions.
+        pEl.textContent =`The area of Palestine, including Jerusalem, is the landing site of the monotheistic religions.
         1. Al-Aqsa Mosque:
         One of the largest mosques in the world and one of the three mosques to which Muslims are traveling, and
         is also the first two kisses in Islam. Located inside the Old City of Jerusalem in Palestine. It is the
@@ -186,7 +176,7 @@ TravelResult.prototype.render = function () {
         It is considered the holiest and most important Christian church in the Christian world.
         The Church of the Holy Sepulcher was named after Jesus' resurrection from the dead on the third day of
         the events that led to his death on the cross. The Eastern Orthodox Church and the Eastern Orthodox
-        Catholic Church share.`)
+        Catholic Church share.`
         var image = document.getElementById('image')
         container.appendChild(image)
         image.setAttribute("src", 'img/quds8.jpg');
@@ -200,10 +190,10 @@ TravelResult.prototype.render = function () {
         var container = document.getElementById("container")
         var h2El = document.getElementById('h')
         container.appendChild(h2El)
-        h2El.setAttribute("src", `Taj Mahal`)
+        h2El.textContent =`Taj Mahal`
         var pEl = document.getElementById('brief')
         container.appendChild(pEl)
-        pEl.setAttribute("src", ` It is a magnificent mausoleum, an elegant white marble architecture found in a hill in the strings of
+        pEl.textContent =` It is a magnificent mausoleum, an elegant white marble architecture found in a hill in the strings of
         Brads in India. It was built by King Shah Jahan of the Mughal Emperor (1630 - 1648) to include the
         remains of his wife Mumtaz Mahal, the third wife known as Mumtaz Mahal. The word Taj Mahal is distorted
         from the princess's name, Mumtaz Mahal. His design was developed by the well-known engineer Issa Shirazi
@@ -216,7 +206,7 @@ TravelResult.prototype.render = function () {
         Islamic architecture, it is widely known as "the jewel of Islamic art in India and one of the world's
         timeless masterpieces".
         The Taj Mahal is considered by many of the finest examples of Mughal architecture, a style that combines
-        Persian, Turkish, Ottoman and Indian architectural styles.`)
+        Persian, Turkish, Ottoman and Indian architectural styles.`
         var image = document.getElementById('image')
         container.appendChild(image)
         image.setAttribute("src", 'img/tajjjj8.jpg');
@@ -230,22 +220,11 @@ TravelResult.prototype.render = function () {
         var container = document.getElementById("container")
         var h2El = document.getElementById('h')
         container.appendChild(h2El)
-        h2El.setAttribute("src", `Makkah`)
+        h2El.textContent =`Makkah`
               var pEl = document.getElementById('brief')
         container.appendChild(pEl)
-        pEl.setAttribute("src", `It is a ho)ly city for Muslims, with the Grand Mosque, and the Kaaba, which is the kiss of Muslims in
-        their prayers. Located west of Saudi Arabia, away from Medina about 400 kilometers in the south-west
-        direction. Mecca has an area of 850 km², of which 88 km² is inhabited, and the central area surrounding
-        the Grand Mosque is about 6 km², and the height of Mecca is about 277 meters above sea level.
-        At the beginning it was a small village located in a dry valley surrounded by mountains on each side,
-        then people began to come and settle in the era of the Prophet Abraham and the Prophet Ismail, after the
-        Prophet Abraham left his wife Hajar and his son Ismail in this dry desert valley, in compliance with By
-        God's order, they stayed in the valley until the well of Zamzam exploded.
-        Mecca is home to many Islamic holy landmarks, most notably the Grand Mosque, the holiest place in the
-        earth for Muslims, because it includes the Holy Kaaba kissing Muslims in prayer, as it is one of the
-        three mosques to which the traveler, according to the Prophet Muhammad: Travelers are only three mosques
-        of this mosque, the Grand Mosque and the Al Aqsa Mosque.`)
-
+        pEl.textContent='It is a holy city for Muslims, with the Grand Mosque, and the Kaaba, which is the kiss of Muslims in their prayers. Located west of Saudi Arabia, away from Medina about 400 kilometers in the south-west direction. Mecca has an area of 850 km², of which 88 km² is inhabited, and the central area surroundingthe Grand Mosque is about 6 km², and the height of Mecca is about 277 meters above sea level.At the beginning it was a small village located in a dry valley surrounded by mountains on each side,then people began to come and settle in the era of the Prophet Abraham and the Prophet Ismail, after the Prophet Abraham left his wife Hajar and his son Ismail in this dry desert valley, in compliance with By God order, they stayed in the valley until the well of Zamzam exploded.Mecca is home to many Islamic holy landmarks, most notably the Grand Mosque, the holiest place in th  earth for Muslims, because it includes the Holy Kaaba kissing Muslims in prayer, as it is one of the three mosques to which the traveler, according to the Prophet Muhammad: Travelers are only three mosques of this mosque, the Grand Mosque and the Al Aqsa Mosque.'
+ 
         var image = document.getElementById('image')
         container.appendChild(image)
         image.setAttribute("src", 'img/mecca2.jpg');
@@ -259,10 +238,10 @@ TravelResult.prototype.render = function () {
         var container = document.getElementById("container")
         var h2El = document.getElementById('h')
         container.appendChild(h2El)
-        h2El.setAttribute("src", `Makkah`)
+        h2El.textContent =`Makkah`
     var pEl = document.getElementById('brief')
         container.appendChild(pEl)
-        pEl.setAttribute("src", `It is a ho)ly city for Muslims, with the Grand Mosque, and the Kaaba, which is the kiss of Muslims in
+        pEl.textContent =`It is a ho)ly city for Muslims, with the Grand Mosque, and the Kaaba, which is the kiss of Muslims in
         their prayers. Located west of Saudi Arabia, away from Medina about 400 kilometers in the south-west
         direction. Mecca has an area of 850 km², of which 88 km² is inhabited, and the central area surrounding
         the Grand Mosque is about 6 km², and the height of Mecca is about 277 meters above sea level.
@@ -273,7 +252,7 @@ TravelResult.prototype.render = function () {
         Mecca is home to many Islamic holy landmarks, most notably the Grand Mosque, the holiest place in the
         earth for Muslims, because it includes the Holy Kaaba kissing Muslims in prayer, as it is one of the
         three mosques to which the traveler, according to the Prophet Muhammad: Travelers are only three mosques
-        of this mosque, the Grand Mosque and the Al Aqsa Mosque.`)
+        of this mosque, the Grand Mosque and the Al Aqsa Mosque.`
 
         var image = document.getElementById('image')
         container.appendChild(image)
@@ -288,14 +267,14 @@ TravelResult.prototype.render = function () {
         var container = document.getElementById("container")
         var h2El = document.getElementById('h')
         container.appendChild(h2El)
-        h2El.setAttribute("src", `MountEverest`)
+        h2El.textContent =`MountEverest`
         var pEl = document.getElementById('brief')
         container.appendChild(pEl)
-        pEl.setAttribute("src", `Its peak i)s on the border of Nepal and China.
+        pEl.textContent =`Its peak is on the border of Nepal and China.
         It is above the Death Zone where the air is too thin for a human being to live,
         so usually compressed gas tanks with different gas mixes for different altitudes are used when climbing.
         The Death Zone refers to the parts of Mount Everest that are above 7,600 metres (24,900 ft) above sea
-        level.`)
+        level.`
 
         var image = document.getElementById('image')
         container.appendChild(image)
@@ -310,13 +289,13 @@ TravelResult.prototype.render = function () {
         var container = document.getElementById("container")
         var h2El = document.getElementById('h')
         container.appendChild(h2El)
-        h2El.setAttribute("src", `capeTown`)
+        h2El.textContent =`capeTown`
       var pEl = document.getElementById('brief')
         container.appendChild(pEl)
-        pEl.setAttribute("src", `Perched on) the southern tip of Africa, Cape Town has been named as one of the most beautiful cities on
+        pEl.textContent =`Perched on the southern tip of Africa, Cape Town has been named as one of the most beautiful cities on
         earth.
         Table Mountain, with its near vertical cliffs, flanked by Devil’s Peak and Lion’s Head on either side,
-        is an ecological marvel – there is more floral diversity here than in the entire United Kingdom.`)
+        is an ecological marvel – there is more floral diversity here than in the entire United Kingdom.`
 
         var image = document.getElementById('image')
         container.appendChild(image)
@@ -331,16 +310,16 @@ TravelResult.prototype.render = function () {
         var container = document.getElementById("container")
         var h2El = document.getElementById('h')
         container.appendChild(h2El)
-        h2El.setAttribute("src", `aqua_clup2`)
+        h2El.textContent = `aqua_clup2`
         var pEl = document.getElementById('brief')
         container.appendChild(pEl)
-        pEl.setAttribute("src", ` Aqua Park) has a variety of recreational facilities that enable you to spend a perfect time with children
+        pEl.textContent = ` Aqua Park) has a variety of recreational facilities that enable you to spend a perfect time with children
         and relax on the sun loungers and drink a favorite cocktail,
         as well as swimming pools and pitfalls and a range of cafes and restaurants where you will spend great
         times,
         in addition to green spaces A water park for young and old and the Dolphin Park to showcase the famous
         dolphin dances.
-        Meet with visitors, and live in it. Famous dolphin dances.`)
+        Meet with visitors, and live in it. Famous dolphin dances.`
 
         var image = document.getElementById('image')
         container.appendChild(image)
@@ -355,15 +334,14 @@ TravelResult.prototype.render = function () {
         var container = document.getElementById("container")
         var h2El = document.getElementById('h')
         container.appendChild(h2El)
-        h2El.setAttribute("src", `petra`)
+        h2El.textContent = `petra`
       var pEl = document.getElementById('brief')
         container.appendChild(pEl)
-        pEl.setAttribute("src", ` Famously )known as the ‘Rose City’ because of its stunning architecture carved out in pink sandstone,
+        pEl.textContent = ` Famously known as the ‘Rose City’ because of its stunning architecture carved out in pink sandstone,
         Petra has been enthralling travellers even before it was declared a World Heritage Site in 1985.
         Believed to have been established in 312 B.C, Petra ishome to over 800 ancient structures including
         buildings, tombs, baths and temples. The water conduit systems of this ancient archeological city will
-        leave you amazed.`)
-
+        leave you amazed.`
         var image = document.getElementById('image')
         container.appendChild(image)
         image.setAttribute("src", 'img/petra3.jpg');
@@ -377,13 +355,13 @@ TravelResult.prototype.render = function () {
         var container = document.getElementById("container")
         var h2El = document.getElementById('h')
         container.appendChild(h2El)
-        h2El.setAttribute("src", 'china')
+        h2El.textContent =  'china'
         var pEl = document.getElementById('brief')
         container.appendChild(pEl)
-        pEl.setAttribute("src",`The First Emperor of China started the Qin Dynasty. The Xiongnu tribes in the north of China were his enemies. The land in some parts of China is easy to cross, so Qin Shi Huang started building the Great Wall to make it more difficult for the Xiongnu to invade China.Other dynasties in China had worked more
+        pEl.textContent = `The First Emperor of China started the Qin Dynasty. The Xiongnu tribes in the north of China were his enemies. The land in some parts of China is easy to cross, so Qin Shi Huang started building the Great Wall to make it more difficult for the Xiongnu to invade China.Other dynasties in China had worked more
         on the wall and made it longer. The Han, Sui, Northern and Jin Dynasties all repaired, rebuilt or
         expanded the Great Wall. During the Ming Dynasty, major rebuilding work took place. Sections of the wall
-        were built with bricks and stone instead of earth`);
+        were built with bricks and stone instead of earth`
 
         var image = document.getElementById('image')
         container.appendChild(image)
@@ -398,17 +376,17 @@ TravelResult.prototype.render = function () {
         var container = document.getElementById("container")
         var h2El = document.getElementById('h')
         container.appendChild(h2El)
-        h2El.setAttribute("src", 'Egypt')
+        h2El.textContent = 'Egypt'
         var pEl = document.getElementById('brief')
         container.appendChild(pEl)
-        pEl.setAttribute("src", `They’re over 3,000 years old, and we still don’t have a good idea as to how they were built or how
+        pEl.textContent = `They’re over 3,000 years old, and we still don’t have a good idea as to how they were built or how
         the
         Egyptians made them so precise .The three pyramids align to the stars and the solstices and contain
         tons
         of chambers that still haven’t been (andcannot be) opened.The largest one, called the Great Pyramid,
         was
         built by the Pharaoh Khufu and has limited access to it. The Pyramids are truly a marvel of human
-        engineering that was fit for kings.`)
+        engineering that was fit for kings.`
 
         var image = document.getElementById('image')
         container.appendChild(image)
@@ -423,14 +401,14 @@ TravelResult.prototype.render = function () {
         var container = document.getElementById("container")
         var h2El = document.getElementById('h')
         container.appendChild(h2El)
-        h2El.setAttribute("src", `rome`)
+        h2El.textContent = `rome`
         var pEl = document.getElementById('brief')
         container.appendChild(pEl)
-        pEl.setAttribute("src", `The famed Eternal City is home to few iconic pieces of architecture that include Pantheon, Forum,
+        pEl.textContent = `The famed Eternal City is home to few iconic pieces of architecture that include Pantheon, Forum,
         Arch
         of Constantine, Circus Maximus; and the list goes on. We bet that a trip to Rome is incomplete
         without a
-        walk along the lanes around the Barouque and Renaissance buildings there.`)
+        walk along the lanes around the Barouque and Renaissance buildings there.`
         var image = document.getElementById('image')
         container.appendChild(image)
         image.setAttribute("src", 'img/rome3.jpg');
@@ -444,10 +422,10 @@ TravelResult.prototype.render = function () {
         var container = document.getElementById("container")
         var h2El = document.getElementById('h')
         container.appendChild(h2El)
-        h2El.setAttribute("src", `dubai`)
+        h2El.textContent = `dubai`
         var pEl = document.getElementById('brief')
         container.appendChild(pEl)
-        pEl.setAttribute("src", `The most famous of the seven Emirates in the United Arab Emirates (UAE), Dubai is a world-class
+        pEl.textContent = `The most famous of the seven Emirates in the United Arab Emirates (UAE), Dubai is a world-class
         destination.
         The story of ‘modern’ Dubai is relatively short. The Emirate has been established for thousands of
         years, yet within the last few decades, Dubai has transformed itself into the ambitious, dynamic
@@ -464,7 +442,7 @@ TravelResult.prototype.render = function () {
         foreign
         countries and businesses unrestricted import and export.
         As oil prices increased, Dubai focused closely on developing free-trade and tourism. In 2000, the
-        Dubai.`)
+        Dubai.`
         var image = document.getElementById('image')
         container.appendChild(image)
         image.setAttribute("src", 'img/Dubai3.jpg');
@@ -478,10 +456,10 @@ TravelResult.prototype.render = function () {
         var container = document.getElementById("container")
         var h2El = document.getElementById('h')
         container.appendChild(h2El)
-        h2El.setAttribute("src", `malaysia`)
+        h2El.textContent = `malaysia`
         var pEl = document.getElementById('brief')
         container.appendChild(pEl)
-        pEl.setAttribute("src", ` To know Malaysia is to love Malaysia - a bubbling, bustling melting-pot of races and religions where
+        pEl.textContent = ` To know Malaysia is to love Malaysia - a bubbling, bustling melting-pot of races and religions where
         Malays, Indians, Chinese and many other ethnic groups live together in peace and harmony. Our
         multiculturalism has made Malaysia a gastronomical paradise and home to hundreds of colourful
         festivals.
@@ -501,7 +479,7 @@ TravelResult.prototype.render = function () {
         floodplains teeming with forest life. Cool highland hideaways roll down to warm, sandy beaches and
         rich,
         humid mangroves.
-        For the perfect holiday full of surprises, the time is now, the place is Malaysia.`)
+        For the perfect holiday full of surprises, the time is now, the place is Malaysia.`
 
         var image = document.getElementById('image')
         container.appendChild(image)
@@ -516,10 +494,10 @@ TravelResult.prototype.render = function () {
         var container = document.getElementById("container")
         var h2El = document.getElementById('h')
         container.appendChild(h2El)
-        h2El.setAttribute("src", `norway`)
+        h2El.textContent = `norway`
       var pEl = document.getElementById('brief')
         container.appendChild(pEl)
-        pEl.setAttribute("src", `The main )attractions of Norway are the varied landscapes that extend across the Arctic Circle. It is
+        pEl.textContent = `The main attractions of Norway are the varied landscapes that extend across the Arctic Circle. It is
         famous for its fjord-indented coastline and its mountains, ski resorts, lakes and woods. Popular
         tourist
         destinations in Norway include Oslo, Ålesund, Bergen, Stavanger, Trondheim and Tromsø. Much of the
@@ -530,7 +508,7 @@ TravelResult.prototype.render = function () {
         visitors, as
         well as science abilities and cultural learnings and things such as Bryggen in Bergen and the
         Vigeland
-        Sculpture Park in Oslo, and they do not know about it.`)
+        Sculpture Park in Oslo, and they do not know about it.`
 
         var image = document.getElementById('image')
         container.appendChild(image)
@@ -545,15 +523,15 @@ TravelResult.prototype.render = function () {
         var container = document.getElementById("container")
         var h2El = document.getElementById('h')
         container.appendChild(h2El)
-        h2El.setAttribute("src", `turkey`)
+        h2El.textContent = `turkey`
        var pEl = document.getElementById('brief')
         container.appendChild(pEl)
-        pEl.setAttribute("src", `Turkey is) a modern country with a captivating blend of antiquity and contemporary and East and West.
+        pEl.textContent = `Turkey is a modern country with a captivating blend of antiquity and contemporary and East and West.
         Get
         interesting information about Turkey and read up on our history, culture and art, nature and
         geography,
         traditional culinary culture, real Turkish lifestyle and more. All you need to know about Turkey and
-        beyond.`)
+        beyond.`
 
         var image = document.getElementById('image')
         container.appendChild(image)

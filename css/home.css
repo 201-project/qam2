@@ -108,11 +108,11 @@ header nav{
 }  
 #gitstart div button a{
     text-decoration: none;
-    color: rgb(7, 7, 7);
+    color: rgb(245, 239, 239);
     font-family: 'Crete Round', serif;
 }
 #gitstart div button a:hover{
-    color: rgba(243, 245, 245, 0.856);
+    color: rgba(7, 7, 7, 0.856);
     font: bolder;
 }
 #gitstart div button{

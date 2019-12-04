@@ -2,48 +2,52 @@
 <html lang="en">
     
     <head>
-        <link rel="stylesheet" href="css/chart.css">
-        <!-- <link rel="stylesheet" href="css/gitstart.css"> -->
+        <link rel="stylesheet" href="css/gitstart.css">
 
         <title>Document</title>
      
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul id="navv">
-                <li>
-                    <a href="home.html">Home</a>
-                </li>
-                <li>
-                    <a href="about-us.html">About Us</a>
-                </li>
-                <li class="contact-us">
-                    Testimonials</li>
-                <li>
-                    <a href="chart.html">Travel Data</a>
-                </li>
-            </ul>
-            <ul id="contactus">
-                <li>
-                    <a href="https://web.facebook.com/QAM2-Grouup-103143904504332/?modal=admin_todo_tour"><img
-                            class="imgs" src="img/facebook (1).png"></a>
-                </li>
-                <li>
-                    <a href="mailto:Qam2group@gmail.com"><img class="imgs" src="img/email1.jpg " hight="150px"></a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/qam2_group/"><img class="imgs" src="img/insta2.png"></a>
-                </li>
-                <li>
-
-                    <a href="home.html"><img class="imgs" src="img/home2.png"></a>
-                </li>
-            </ul>
-            <img src="img/logo.jpg" alt="logo" id="logo">
-        </nav>
-    </header>
+        <header>
+                <nav>
+                    <ul id="navv">
+                        <li>
+                            <a href="home.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="about-us.html">About Us</a>
+                        </li>
+                        <li class="Testimonials.html">Testimonials</li>
+                        <li>
+                            <a href="travelplace.html">Travel Places</a>
+                        </li>
+                         <li>
+                             <a href="RPS.html">Play a Simple Game</a>
+                         </li>
+                    </ul>
+                    <ul id="contactus">
+                        <li>
+                            <a href="https://web.facebook.com/QAM2-Grouup-103143904504332/?modal=admin_todo_tour"><img
+                                    class="imgs" src="img/facebook (1).png"></a>
+                        </li>
+                        <li>
+                            <a href="mailto:Qam2group@gmail.com"><img class="imgs" src="img/email1.jpg " hight="150px"></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/qam2_group/"><img class="imgs" src="img/insta2.png"></a>
+                        </li>
+                        <li>
+        
+                            <a href="home.html"><img class="imgs" src="img/home2.png"></a>
+                        </li>
+                        <li>
+                                <a href="charts.html"><img class="imgs" src="img/26-512.png"></a>
+                            </li>
+                    </ul>
+                    <img src="img/logo.jpg" alt="logo" id="logo">
+                </nav>
+            </header>
     <main>
             <form id="travelForm">
             <fieldset>
@@ -53,19 +57,19 @@
                 <br />
                 <label for="travelPurpose" id="travelPurpose">please pick the reason you want to travel for</label>
                 <br />
-                <input type="radio" id="travelPurpose" name="choice" value="leisureTourism" ><span>Leisure Tourism</span> 
+                <input type="radio" id="travelPurpose" name="choice" value="leisureTourism" required ><span>Leisure Tourism</span> 
                 <br />
-                <input type="radio"id="travelPurpose" name="choice" value="HistoricalTourism" ><span> Historical Tourism</span>
+                <input type="radio"id="travelPurpose" name="choice" value="HistoricalTourism" required ><span> Historical Tourism</span>
                 <br />
-                <input type="radio"id="travelPurpose" name="choice" value="religiousTourism"><span>religious Tourism</span> 
+                <input type="radio"id="travelPurpose" name="choice" value="religiousTourism" required><span>religious Tourism</span> 
                 <br />
-                <input type="radio"id="travelPurpose" name="choice" value="adventurousTourism"><span>Adventurous Tourism</span>
+                <input type="radio"id="travelPurpose" name="choice" value="adventurousTourism" required><span>Adventurous Tourism</span>
                 <br />
                 <label for="travelq" id="q3">who are you going to travel with?</label>
                 <br/>
-                <input type="radio"id="travelq" value="Alone"><span>Alone</span>
+                <input type="radio"id="travelq" value="Alone" required><span>Alone</span>
                 <br/>
-                <input type="radio"id="travelq" value="Group"><span>Group</span>
+                <input type="radio"id="travelq" value="Group" required><span>Group</span>
                 <br/>
                 <label for="partner"class="q ">Would you like travelling with a company or on your own?</label>
                 <br />
@@ -76,11 +80,11 @@
                 
                 <label for="budget" class="q">please pick the budget that suits you the most</label>
                 <br />
-                <input type="radio"id="budget" value="0 - $500"><span>0 - $500  </span>   
+                <input type="radio"id="budget" value="0 - $500" required><span>0 - $500  </span>   
                 <br />
-                <input type="radio" id="budget"value="$500 - $3000"><span>$500 - $3000 </span>
+                <input type="radio" id="budget"value="$500 - $3000" required><span>$500 - $3000 </span>
                 <br />
-                <input type="radio" id="budget"value="$3000 - $5000"><span>$3000 - $5000 </span>
+                <input type="radio" id="budget"value="$3000 - $5000" required><span>$3000 - $5000 </span>
                 <br />
                 <input type="radio" id="budget"value="$5000 $ and more"><span>$5000 $ and more</span>
                 <br />
@@ -97,11 +101,15 @@
                 <input type="submit"  id="submit" />
             </fieldset>
         </form>
+        <div id="clearDiv"></div>
         <section id="container">
-            <h2 id="h"></h2>
+            <h2 id="h" ></h2>
+            <br />
+            <iframe  id="iframe" src="" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            <br />
+            <p id="brief"></p>
+            <!-- <div id="clearDiv"></div> -->
             <img id="image" src="" alt="">
-        <p id="brief"></p>
-        <iframe  id="iframe" src="" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
     </section>
              
         </main>
