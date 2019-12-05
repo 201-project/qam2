@@ -24,7 +24,7 @@ function rsp(a){
   if( a < b) y = y + 1;
   document.write('</br>',x,':',y,'<hr>');
   // style in the javaScript flies
-  document.write('<style>body{background:rgba(0, 0, 0, 0.219);}*{font-family:montserrat;font-size:24px;color:white;text-align:center;padding:0;text-shadow:0 0 30px white;}input{-webkit-appearance:none;border:1px solid rgba(255,255,255,1);background-color:rgba(255,255,255,0.3);border-radius:12px;width:50px;height:50px;text-align:center;margin:10px;box-shadow:0 0 80px white;}hr{border:1px solid rgba(0, 0, 0, 0.219);;border-radius:10px;}</style>');
+  document.write('<style>body{background:rgba(68, 29, 4, 0.705);}*{font-family:Fira Sans Condensed, sans-serif;padding:20px;font-size:30px;color:black;text-align:center;padding:10px;text-shadow:0 0 30px white;}input{-webkit-appearance:none;border:1px solid rgba(255,255,255,1);background-color:rgba(255,255,255,0.3);border-radius:12px;width:80px;height:70px;text-align:center;margin:20px;box-shadow:0 0 80px white;}hr{border:1px solid rgba(0, 0, 0, 0.219);;border-radius:10px;}</style>');
   // this for scroll the screen
   window.scrollTo(0,document.body.scrollHeight);
 }
