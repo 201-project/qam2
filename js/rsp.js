@@ -1,5 +1,5 @@
 'use stricts';
-var username = prompt('You name please?  🤘🏻');
+var username = prompt('Your name please?  🤘🏻');
 var x = 0;
 var y = 0;
 // eslint-disable-next-line no-unused-vars
