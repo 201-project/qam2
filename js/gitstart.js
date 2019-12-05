@@ -1,9 +1,6 @@
 'use strict';
 var form = document.getElementById("travelForm");
-var dataReligious = ["aya", "taj", "quds", "Makkah"];
-var dataAdventurous = ["WadiRum", "MountEverest", "CapeTown", "AquaClub"];
-var dataHistorical = ["petra", "China", "pyramids", "rome"];
-var dataLiesure = ["dubai", "malaysia", "norway", "turkey"];
+
 var results = [];
 var money;
 var purpose;
@@ -20,15 +17,7 @@ function TravelResult(
     this.days = days;
     this.travelq = travelq;
     results.push(this);
-    console.log(results)
-
-// TravelResult.prototype.result = function () {
-    console.log(this.budget)
-    console.log(this.travelPurpose)
-    console.log(this.days)
-    console.log(this.travelq)
-
-
+  
     if ((this.travelPurpose === "religiousTourism") && (this.travelq === "Alone")) {
         if (this.budget === "0 - $500") {
              this.place = "quds";
@@ -125,7 +114,6 @@ function TravelResult(
             this.place ="AquaClub";
         }
     }
-    console.log(this.place)
     resultPlace = this.place;
 }
 
@@ -238,21 +226,12 @@ TravelResult.prototype.render = function () {
         var container = document.getElementById("container")
         var h2El = document.getElementById('h')
         container.appendChild(h2El)
-        h2El.textContent =`Makkah`
+        h2El.textContent =`WadiRum`
     var pEl = document.getElementById('brief')
         container.appendChild(pEl)
-        pEl.textContent =`It is a ho)ly city for Muslims, with the Grand Mosque, and the Kaaba, which is the kiss of Muslims in
-        their prayers. Located west of Saudi Arabia, away from Medina about 400 kilometers in the south-west
-        direction. Mecca has an area of 850 km², of which 88 km² is inhabited, and the central area surrounding
-        the Grand Mosque is about 6 km², and the height of Mecca is about 277 meters above sea level.
-        At the beginning it was a small village located in a dry valley surrounded by mountains on each side,
-        then people began to come and settle in the era of the Prophet Abraham and the Prophet Ismail, after the
-        Prophet Abraham left his wife Hajar and his son Ismail in this dry desert valley, in compliance with By
-        God's order, they stayed in the valley until the well of Zamzam exploded.
-        Mecca is home to many Islamic holy landmarks, most notably the Grand Mosque, the holiest place in the
-        earth for Muslims, because it includes the Holy Kaaba kissing Muslims in prayer, as it is one of the
-        three mosques to which the traveler, according to the Prophet Muhammad: Travelers are only three mosques
-        of this mosque, the Grand Mosque and the Al Aqsa Mosque.`
+        pEl.textContent =`  Wadi Rum is a protected area covering 720 square kilometers of dramatic desert wilderness in the south
+        of Jordan. Huge mountains of sandstone and granite emerge, sheer-sided,
+        from wide sandy valleys to reach heights of 1700 meters and more.`
 
         var image = document.getElementById('image')
         container.appendChild(image)
