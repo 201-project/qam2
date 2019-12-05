@@ -1,6 +1,10 @@
+
+
 html{
-    background: rgba(0, 0, 0, 0.219);
+    background: rgba(68, 29, 4, 0.705);
 }
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Fira+Sans+Condensed|Pacifico|Prompt|Righteous&display=swap');
+
       #logo {
     float: left;
     height: 60px;
@@ -70,7 +74,7 @@ header nav{
     width: 30px;
     height: 30px;
 }
-      p {
+p {
 	font-size: 20px;
 	text-shadow: 0 0 80px white;
 }
@@ -88,25 +92,34 @@ div p {
 
 input{
       box-shadow: 0 0 80px 0 white;
-      border:1px solid rgba(255,255,255,1);
+      border:1px solid rgb(24, 21, 21);
       background-color:rgba(255,255,255,0.5);
       border-radius:12px;width:50px;height:50px;
       text-align:center;
-      margin:7%;
+      margin-top:3%;
+      width: 10pc;
+    height: 6pc;
       cursor: pointer;
       margin-left: 15pc;
 }
+
 hr{
       border:1px solid;
       border-radius:10px;
+}
+div p{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
 }
 footer {
     clear: both;
     background: rgba(0, 0, 0, 0.829);
     padding: 30px;
-    margin-top: 150px;
+    margin-top: 20pc;
     border: white;
     color: white;
     text-align: center;
     width: 1290px;
 }
+
